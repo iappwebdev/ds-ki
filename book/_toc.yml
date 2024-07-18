@@ -7,4 +7,5 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
+    - file: bsp_parsons_problem.ipynb
     - file: references.md
