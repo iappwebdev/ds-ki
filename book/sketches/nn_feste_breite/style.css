@@ -4,4 +4,5 @@ html, body {
 }
 canvas {
   display: block;
+  box-shadow:4px 4px 4px 2px rgb(0 0 0 / 20%);
 }
