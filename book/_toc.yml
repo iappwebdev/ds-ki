@@ -10,3 +10,6 @@ parts:
     - file: p5einbinden.ipynb
     - file: bsp_parsons_problem.ipynb
     - file: references.md
+    - file: problemloesen-und-suche/ueberblick-suche.md
+      sections:
+      - file: problemloesen-und-suche/Schiebepuzzle.ipynb
