@@ -17,8 +17,9 @@ Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientie
 
 ```{tip}
 Wenn du dieses Buch online liest, kannst du viele Inhalte *interaktiv* nutzen, z.B. kannst du
-- Codebeispiele selbst ausführen und verändern, um selbst zu erfahren, welche 
-Auswirkungen das hat
+- Codebeispiele selbst ausführen und sogar verändern. Probier's aus im Abschnitt [](livecode)
+
+
 - Quizfragen beantworten
 - Parsons Probleme lösen
 - interaktive Beispiele ausprobieren
