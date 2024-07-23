@@ -1,6 +1,6 @@
-title: Datenstrukturen & KI fürs TGI
-author: Michael Brenner, basierend auf <a href="https://teachbooks.tudelft.nl/">TeachBooks</a> und <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""> #Add your own name here
-copyright: 2024
+title: Datenstrukturen und KI fürs TGI
+author: Michael Brenner
+# copyright: 2024
 # logo: figures/TUDelft_logo_rgb.png #add your own logo here
 
 execute:
