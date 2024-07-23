@@ -1,13 +1,26 @@
 (intro)=
-# Welcome to the Template Book
+# Datenstrukturen und Künstliche Intelligenz
+Skript für die J2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)  
+*Michael Brenner, 2024*
 
-_Write book intro here. This is the first page the student will see when opening the url._
+## Willkommen
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative.
+In diesem Skript geht es umd die beiden abitur-relevanten Software-Themen aus dem [Bildungsplan der Jahrgangsstufe 13](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS):
 
-## Neuer Abschnitt zum Test
-Diesen Abschnitt hab ich neu hinzugefügt und probiere auch gleich mal `MyST`-Syntax aus:
+```{margin}
+Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) ist bis auf weiteres nur das Thema *Datenstrukturen* relevant fürs Abitur.
+```
 
-```{note}
-Eine total hilfreiche Bemerkung!
+- [Datenstrukturen (BPE 12)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II)und 
+- [Künstliche Intelligenz](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#K%C3%BCnstliche%20Intelligenz)
+
+
+
+```{tip}
+Wenn du dieses Buch online liest, kannst du viele Inhalte *interaktiv* nutzen, z.B.
+- kannst du Codebeispiele selbst ausführen und verändern, um selbst zu erfahren, welche 
+Auswirkungen das hat
+- Quizfragen beantworten
+- Parsons Probleme lösen
+- Interaktive Beispiele ausprobieren
 ```
