@@ -6,7 +6,7 @@
 author = 'Michael Brenner'
 bibtex_bibfiles = ['references.bib']
 comments_config = {'hypothesis': False, 'utterances': False}
-copyright = '2023'
+copyright = '2024'
 exclude_patterns = ['**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db', '_build']
 extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'jupyter_book', 'sphinx_thebe', 'sphinx_comments', 'sphinx_external_toc', 'sphinx.ext.intersphinx', 'sphinx_design', 'sphinx_book_theme', 'sphinx.ext.imgconverter', 'jupyterbook_patches', 'sphinxcontrib.bibtex', 'sphinx_jupyterbook_latex', 'sphinx_multitoc_numbering']
 external_toc_exclude_missing = True
@@ -18,7 +18,7 @@ html_logo = ''
 html_show_copyright = False
 html_sourcelink_suffix = ''
 html_theme = 'sphinx_book_theme'
-html_theme_options = {'repository_url': 'https://github.com/TeachBooks/template', 'use_repository_button': True, 'use_issues_button': True, 'launch_buttons': {'thebe': True}}
+html_theme_options = {'home_page_in_toc': True, 'repository_url': 'https://github.com/TeachBooks/template', 'use_repository_button': True, 'use_issues_button': True, 'launch_buttons': {'thebe': True}}
 html_title = 'Datenstrukturen und KI'
 language = 'de'
 latex_engine = 'pdflatex'

@@ -1,13 +1,14 @@
 (intro)=
 # Datenstrukturen und Künstliche Intelligenz
 *Skript für die J2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)*  
-Michael Brenner, 2024
+
+Michael Brenner, Schuljahr 2024/25
 
 ```{warning}
 Dies ist *nicht* das echte Unterrichtsskript, sondern nur eine "Spielwiese" um auszuprobieren, wie man bestimmte Ideen für das Skript umsetzten könnte.  
 ```
 
-## Willkommen in meinem Buch
+## Worum geht es in diesem Buch?
 
 ```{margin}
 Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) ist bis auf weiteres nur das Thema *Datenstrukturen* relevant fürs Abitur.
