@@ -7,10 +7,11 @@ parts:
     chapters:
     - file: nutzung.md 
     - file: live_code.ipynb
-  - caption: Beispielhafte Inhalte  Das wird Part 2
+  - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
     - file: problemloesen-und-suche/ueberblick-suche.md
+      title: Beispielkapitel
       sections:   # Die Sections sind dann eine Nummerierungsebene tiefer
       - file: problemloesen-und-suche/Schiebepuzzle.ipynb
     - file: some_content/overview.md

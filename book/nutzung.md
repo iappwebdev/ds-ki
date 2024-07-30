@@ -1,4 +1,6 @@
-# Wie schreibe ich ein Unterrichtsskript mit TeachBook/JupyterBook?
+# Anleitungen und Beispiele
+
+Wie schreibe ich ein Unterrichtsskript mit TeachBook/JupyterBook? Auf dieser Seite sammle ich Links zu wichtigen Manuals und Beispiele für inspirierende JupyterBooks.
 
 ## Allgemeine Quellen
 

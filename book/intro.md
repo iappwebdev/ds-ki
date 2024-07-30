@@ -1,9 +1,13 @@
 (intro)=
 # Datenstrukturen und Künstliche Intelligenz
-Skript für die J2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)  
-*Michael Brenner, 2024*
+*Skript für die J2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)*  
+Michael Brenner, 2024
 
-## Willkommen
+```{warning}
+Dies ist *nicht* das echte Unterrichtsskript, sondern nur eine "Spielwiese" um auszuprobieren, wie man bestimmte Ideen für das Skript umsetzten könnte.  
+```
+
+## Willkommen in meinem Buch
 
 ```{margin}
 Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) ist bis auf weiteres nur das Thema *Datenstrukturen* relevant fürs Abitur.
@@ -11,8 +15,8 @@ Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientie
 
 In diesem Skript geht es umd die beiden abitur-relevanten Software-Themen aus dem [Bildungsplan der Jahrgangsstufe 13](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS):
 
-- [Datenstrukturen (BPE 12)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) und 
-- [Künstliche Intelligenz](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#K%C3%BCnstliche%20Intelligenz) (BPE 13)
+- [Datenstrukturen (BPE 12)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) und
+- [Künstliche Intelligenz (BPE 13)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#K%C3%BCnstliche%20Intelligenz)
 
 
 
