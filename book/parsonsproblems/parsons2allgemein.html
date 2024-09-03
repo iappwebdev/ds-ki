@@ -72,7 +72,8 @@
             'sortableId': 'sortable',
             'trashId': 'sortableTrash',
             'max_wrong_lines': 1,
-            'feedback_cb': displayErrors
+            'feedback_cb': displayErrors,
+            'lang': 'de'   // funktioniert nur, wenn in parsons.js auch Strings für 'de' definiert sind
         });
         parson.init(initial);
         parson.shuffleLines();

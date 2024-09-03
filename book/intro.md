@@ -4,6 +4,7 @@
 
 Michael Brenner, Schuljahr 2024/25
 
+
 ```{warning}
 Dies ist *nicht* das echte Unterrichtsskript, sondern nur eine "Spielwiese" um auszuprobieren, wie man bestimmte Ideen für das Skript umsetzten könnte.  
 ```

@@ -6,7 +6,9 @@ parts:
     numbered: 2
     chapters:
     - file: nutzung.md 
-    - file: live_code.ipynb
+    - file: experimente/live_code.ipynb
+      sections:
+      - file: experimente/thebe.ipynb
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
@@ -20,6 +22,7 @@ parts:
   - caption: Weitere Experimente
     numbered: 2
     chapters:
-    - file: p5einbinden.ipynb
-    - file: bsp_parsons_problem.ipynb
+    - file: experimente/p5einbinden.ipynb
+    - file: experimente/bsp_parsons_problem.ipynb
+    - file: experimente/pythontutor.ipynb
     - file: references.md
