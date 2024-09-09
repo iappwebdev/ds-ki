@@ -6,23 +6,19 @@ parts:
     numbered: 2
     chapters:
     - file: nutzung.md 
-    - file: experimente/live_code.ipynb
-      sections:
-      - file: experimente/thebe.ipynb
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
-    - file: problemloesen-und-suche/ueberblick-suche.md
-      title: Beispielkapitel
-      sections:   # Die Sections sind dann eine Nummerierungsebene tiefer
-      - file: problemloesen-und-suche/Schiebepuzzle.ipynb
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-  - caption: Weitere Experimente
-    numbered: 2
+    - file: datenstrukturen/datenstrukturen_allgemein.ipynb
+    - file: datenstrukturen/verkettete_listen.ipynb
+    - file: datenstrukturen/baeume.ipynb
+  - caption: Künstliche Intelligenz
+    numbered: 3
     chapters:
-    - file: experimente/p5einbinden.ipynb
-    - file: experimente/bsp_parsons_problem.ipynb
-    - file: experimente/pythontutor.ipynb
-    - file: references.md
+    - file: ki/ki_allgemein.ipynb
+    - file: ki/knearestneighbor.ipynb
+    - file: ki/kmeansclustering.ipynb
+    - file: ki/entscheidungsbaumlernen.ipynb
+    - file: ki/minimax.ipynb
+    - file: ki/neuronalenetze.ipynb
+

@@ -1,29 +1,26 @@
 (intro)=
 # Datenstrukturen und Künstliche Intelligenz
-*Skript für die J2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)*  
+*Skript für die Jahrgangsstufe 2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)*  
 
 Michael Brenner, Schuljahr 2024/25
 
 
-```{warning}
-Dies ist *nicht* das echte Unterrichtsskript, sondern nur eine "Spielwiese" um auszuprobieren, wie man bestimmte Ideen für das Skript umsetzten könnte.  
-```
-
 ## Worum geht es in diesem Buch?
 
 ```{margin}
-Aus der [BPE 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) ist bis auf weiteres nur das Thema *Datenstrukturen* relevant fürs Abitur.
+Die [BPE 12 des Bildungsplans](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) enthält mehrere sehr unterschiedliche Themen. Davon wird aber bis auf weiteres nur das Thema *Datenstrukturen* relevant fürs Abitur sein... und deshalb konzentrieren wir uns hier darauf 😉.
 ```
 
 In diesem Skript geht es umd die beiden abitur-relevanten Software-Themen aus dem [Bildungsplan der Jahrgangsstufe 13](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS):
 
-- [Datenstrukturen (BPE 12)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II) und
-- [Künstliche Intelligenz (BPE 13)](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#K%C3%BCnstliche%20Intelligenz)
+- **Datenstrukturen** (aus der [Bildungsplaneinheit 12](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#Objektorientierter%20Entwurf%20II)) und
+- **Künstliche Intelligenz** (aus der [Bildungsplaneinheit 13](https://www.bildungsplaene-bw.de/,Lde/InfTech_OS#K%C3%BCnstliche%20Intelligenz))
 
 
+## Wie nutzt du dieses Buch am besten?
 
 ```{tip}
-Wenn du dieses Buch online liest, kannst du viele Inhalte *interaktiv* nutzen, z.B. kannst du
+Wenn du dieses Buch *online* liest, kannst du viele Inhalte *interaktiv* nutzen, z.B. kannst du
 - Codebeispiele selbst ausführen und sogar verändern. Probier's aus in [diesem Abschnitt](livecode)
 - Quizfragen beantworten
 - Parsons Probleme lösen

@@ -1,3 +1,0 @@
-# Problemlösen und Suche
-
-bla bla bla bla... Nur ein Blindtext...
