@@ -10,7 +10,7 @@ only_build_toc_files: true
 
 html:
   favicon : "figures/favicon.ico"
-  baseurl :  "https://teachbooks.github.io/template/" #Replace this with your own URL
+  baseurl :  "https://github.com/embee0/ds-ki" #Replace this with your own URL
   home_page_in_navbar       : true
   extra_footer: |
         <div>
@@ -27,12 +27,12 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
       # home_page_in_toc: true
-      repository_url: "https://github.com/TeachBooks/template" #add your own repo URL here
+      repository_url: "https://github.com/embee0/ds-ki" #add your own repo URL here
       use_repository_button: true
-      use_issues_button : true
+      use_issues_button : false
       launch_buttons:
         thebe: true
-    html_show_copyright: false
+    html_show_copyright: true  # Evtl ändern?
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
