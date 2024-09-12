@@ -6,6 +6,7 @@ parts:
     numbered: 2
     chapters:
     - file: live_code.ipynb
+    - file: bsp_parsons_problem2.ipynb
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
