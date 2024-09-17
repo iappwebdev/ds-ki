@@ -93,16 +93,16 @@
       trash_label: 'Hier ziehen',
       solution_label: 'Konstruiere hier deine Lösung',
       order: function () {
-        return "Codefragmente in deinem Programm sind falsch oder in der falschen Reihenfolge. Dies kann behoben werden, indem die hervorgehobenen Fragmente verschoben, entfernt oder ersetzt werden.";
+        return "Befehle in deinem Programm sind falsch oder in der falschen Reihenfolge. Dies kann behoben werden, indem die hervorgehobenen Fragmente verschoben, entfernt oder ersetzt werden.";
       },
       lines_missing: function () {
-        return "Dein Programm hat zu wenige Codefragmente.";
+        return "Dein Programm hat zu wenige Befehle.";
       },
       lines_too_many: function () {
-        return "Dein Programm hat zu viele Codefragmente.";
+        return "Dein Programm hat zu viele Befehle.";
       },
       no_matching: function (lineNro) {
-        return "Basierend auf der Syntax der Sprache ist das herv orgehobene Fragment (" + lineNro + ") nicht korrekt eingerückt.";
+        return "Der hervorgehobene Befehl (" + lineNro + ") ist nicht korrekt eingerückt.";
       },
       no_matching_open: function (lineNro, block) {
         return "Der " + block + " endete in Zeile " + lineNro + ", wurde aber nie gestartet.";

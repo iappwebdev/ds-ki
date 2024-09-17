@@ -11,7 +11,13 @@ parts:
     numbered: 3
     chapters:
     - file: datenstrukturen/datenstrukturen_allgemein.ipynb
-    - file: datenstrukturen/verkettete_listen.ipynb
+    - file: datenstrukturen/listen_einfuehrung.ipynb
+      title: Listen
+      sections:
+      - file: datenstrukturen/verkettete_listen.ipynb
+      - file: datenstrukturen/verkettete_liste_operationen1.ipynb
+      - file: datenstrukturen/verkettete_liste_operationen2.ipynb
+    - file: datenstrukturen/stack.ipynb
     - file: datenstrukturen/baeume.ipynb
   - caption: Künstliche Intelligenz
     numbered: 3

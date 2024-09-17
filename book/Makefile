@@ -31,10 +31,9 @@ build: clean
 	jupyter-book build . --all
 
 # Buch online veröffentlichen
-publish: 
-	@echo "ACHTUNG: Im Augenblick wird das Buch einfach veröffentlicht, indem du innerhalb von"
-	@echo "         vscode die Änderungen committest und pushst. Das Buch wird dann automatisch"
-	@echo "         auf GitHub Pages veröffentlicht."
+publish: build
+	scp -r _build/html/* mbqw@carina.uberspace.de:html/tgi13skript/
+	@echo "ACHTUNG: Nicht ideal... Es werden zB keine Dateien gelöscht, die im Buch nicht mehr vorhanden sind!!!"
 
 # Hilfetext
 help:
