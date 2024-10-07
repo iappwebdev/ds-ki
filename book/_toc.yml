@@ -6,7 +6,7 @@ parts:
     numbered: 2
     chapters:
     - file: live_code.ipynb
-    - file: bsp_parsons_problem2.ipynb
+    - file: parsons_problems_einfuehrung.ipynb
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
@@ -17,7 +17,13 @@ parts:
       - file: datenstrukturen/verkettete_listen.ipynb
       - file: datenstrukturen/verkettete_liste_operationen1.ipynb
       - file: datenstrukturen/verkettete_liste_operationen2.ipynb
-    - file: datenstrukturen/stack.ipynb
+      - file: datenstrukturen/verkettete_liste_operationen_loesungen.ipynb
+    - file: datenstrukturen/stapel_und_warteschlangen_intro.md
+      title: Stapel und Warteschlangen
+      sections:
+      - file: datenstrukturen/stack.ipynb
+      - file: datenstrukturen/stack-aufgaben.ipynb
+      - file: datenstrukturen/warteschlangen.ipynb
     - file: datenstrukturen/baeume.ipynb
   - caption: Künstliche Intelligenz
     numbered: 3

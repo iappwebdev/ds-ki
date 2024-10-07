@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>117</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=erster</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>273</y>
+      <w>169</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+-
+-name: Text
+-geschlecht: Text
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>208</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=inhalt
+r1pos=-45,15</panel_attributes>
+    <additional_attributes>50.0;50.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>65</y>
+      <w>234</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+r1=naechster
+r1pos=-70,10
+m1pos=0,-4</panel_attributes>
+    <additional_attributes>70.0;50.0;70.0;10.0;160.0;10.0;160.0;60.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>130</y>
+      <w>260</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>VerketteteListe&lt;Mitarbeiter&gt;
+-
+
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>533</x>
+      <y>130</y>
+      <w>195</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Knoten&lt;Mitarbeiter&gt;
+-
+
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

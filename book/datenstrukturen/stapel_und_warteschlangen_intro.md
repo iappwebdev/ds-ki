@@ -1,0 +1,2 @@
+# Stapel und Warteschlangen
+In diesem Kapitel lernst du zwei häufig genutzte und eng miteinander verwandte Datenstrukturen kennen, den **Stapel** (engl. *Stack*) und die **Warteschlange** (engl. *Queue*).
