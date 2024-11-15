@@ -7,6 +7,7 @@ parts:
     chapters:
     - file: live_code.ipynb
     - file: parsons_problems_einfuehrung.ipynb
+
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3
     chapters:
@@ -24,7 +25,14 @@ parts:
       - file: datenstrukturen/stack.ipynb
       - file: datenstrukturen/stack-aufgaben.ipynb
       - file: datenstrukturen/warteschlangen.ipynb
+    - file: datenstrukturen/assoziative_arrays.ipynb
     - file: datenstrukturen/baeume.ipynb
+      title: Bäume
+      sections:
+      - file: datenstrukturen/binaerbaeume.ipynb
+      - file: datenstrukturen/suchbaeume.ipynb
+    - file: datenstrukturen/klausurvorbereitung_mit_loesungen.ipynb
+
   - caption: Künstliche Intelligenz
     numbered: 3
     chapters:

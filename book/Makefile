@@ -31,9 +31,8 @@ build: clean
 	jupyter-book build . --all
 
 # Buch online veröffentlichen
-publish: build
-	scp -r _build/html/* mbqw@carina.uberspace.de:html/tgi13skript/
-	@echo "ACHTUNG: Nicht ideal... Es werden zB keine Dateien gelöscht, die im Buch nicht mehr vorhanden sind!!!"
+publish:
+	rsync -avz _build/html/* mbqw@carina.uberspace.de:html/tgi13skript/
 
 # Hilfetext
 help:
