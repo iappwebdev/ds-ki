@@ -8,191 +8,191 @@
  viewBox="0.00 0.00 720.00 190.72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(0.87 0.87) rotate(0) translate(4 214)">
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-214 819,-214 819,4 -4,4"/>
-<!-- 4428515376 -->
+<!-- 4636136256 -->
 <g id="node1" class="node">
-<title>4428515376</title>
+<title>4636136256</title>
 <polygon fill="white" stroke="black" points="451,-210 397,-210 397,-174 451,-174 451,-210"/>
 <text text-anchor="middle" x="424" y="-188.9" font-family="Helvetica,sans-Serif" font-size="12.00">Tier</text>
 </g>
-<!-- 4428519360 -->
+<!-- 4636141584 -->
 <g id="node2" class="node">
-<title>4428519360</title>
+<title>4636141584</title>
 <polygon fill="white" stroke="black" points="287,-152 219,-152 219,-116 287,-116 287,-152"/>
 <text text-anchor="middle" x="253" y="-130.9" font-family="Helvetica,sans-Serif" font-size="12.00">Säugetier</text>
 </g>
-<!-- 4428515376&#45;&gt;4428519360 -->
+<!-- 4636136256&#45;&gt;4636141584 -->
 <g id="edge1" class="edge">
-<title>4428515376&#45;&gt;4428519360</title>
+<title>4636136256&#45;&gt;4636141584</title>
 <path fill="none" stroke="black" d="M396.9,-182.13C368.89,-172.95 324.85,-158.53 292.86,-148.05"/>
 <polygon fill="black" stroke="black" points="293.39,-146.02 287.04,-146.15 292.08,-150.01 293.39,-146.02"/>
 </g>
-<!-- 417689 -->
-<!-- 4428515376&#45;&gt;417689 -->
-<!-- 4428516048 -->
+<!-- 101290 -->
+<!-- 4636136256&#45;&gt;101290 -->
+<!-- 4636138128 -->
 <g id="node4" class="node">
-<title>4428516048</title>
+<title>4636138128</title>
 <polygon fill="white" stroke="black" points="615,-152 561,-152 561,-116 615,-116 615,-152"/>
 <text text-anchor="middle" x="588" y="-130.9" font-family="Helvetica,sans-Serif" font-size="12.00">Fisch</text>
 </g>
-<!-- 4428515376&#45;&gt;4428516048 -->
+<!-- 4636136256&#45;&gt;4636138128 -->
 <g id="edge3" class="edge">
-<title>4428515376&#45;&gt;4428516048</title>
+<title>4636136256&#45;&gt;4636138128</title>
 <path fill="none" stroke="black" d="M451.08,-181.75C479.57,-172.03 524.42,-156.71 554.97,-146.28"/>
 <polygon fill="black" stroke="black" points="555.88,-148.19 560.88,-144.26 554.52,-144.21 555.88,-148.19"/>
 </g>
-<!-- 4428515424 -->
+<!-- 4636137456 -->
 <g id="node5" class="node">
-<title>4428515424</title>
+<title>4636137456</title>
 <polygon fill="white" stroke="black" points="111,-94 57,-94 57,-58 111,-58 111,-94"/>
 <text text-anchor="middle" x="84" y="-72.9" font-family="Helvetica,sans-Serif" font-size="12.00">Hund</text>
 </g>
-<!-- 4428519360&#45;&gt;4428515424 -->
+<!-- 4636141584&#45;&gt;4636137456 -->
 <g id="edge4" class="edge">
-<title>4428519360&#45;&gt;4428515424</title>
+<title>4636141584&#45;&gt;4636137456</title>
 <path fill="none" stroke="black" d="M218.8,-121.67C189.18,-111.85 146.58,-97.74 117.24,-88.01"/>
 <polygon fill="black" stroke="black" points="117.55,-85.9 111.19,-86.01 116.23,-89.89 117.55,-85.9"/>
 </g>
-<!-- 246976 -->
-<!-- 4428519360&#45;&gt;246976 -->
-<!-- 4428515664 -->
+<!-- 707425 -->
+<!-- 4636141584&#45;&gt;707425 -->
+<!-- 4636137744 -->
 <g id="node7" class="node">
-<title>4428515664</title>
+<title>4636137744</title>
 <polygon fill="white" stroke="black" points="337,-94 283,-94 283,-58 337,-58 337,-94"/>
 <text text-anchor="middle" x="310" y="-72.9" font-family="Helvetica,sans-Serif" font-size="12.00">Affe</text>
 </g>
-<!-- 4428519360&#45;&gt;4428515664 -->
+<!-- 4636141584&#45;&gt;4636137744 -->
 <g id="edge6" class="edge">
-<title>4428519360&#45;&gt;4428515664</title>
+<title>4636141584&#45;&gt;4636137744</title>
 <path fill="none" stroke="black" d="M270.41,-115.89C276.05,-110.36 282.37,-104.15 288.28,-98.34"/>
 <polygon fill="black" stroke="black" points="289.89,-99.7 292.7,-94 286.94,-96.71 289.89,-99.7"/>
 </g>
-<!-- 4428516144 -->
+<!-- 4636138224 -->
 <g id="node14" class="node">
-<title>4428516144</title>
+<title>4636138224</title>
 <polygon fill="white" stroke="black" points="558,-94 456,-94 456,-58 558,-58 558,-94"/>
 <text text-anchor="middle" x="507" y="-72.9" font-family="Helvetica,sans-Serif" font-size="12.00">Süßwasserfisch</text>
 </g>
-<!-- 4428516048&#45;&gt;4428516144 -->
+<!-- 4636138128&#45;&gt;4636138224 -->
 <g id="edge13" class="edge">
-<title>4428516048&#45;&gt;4428516144</title>
+<title>4636138128&#45;&gt;4636138224</title>
 <path fill="none" stroke="black" d="M563.26,-115.89C554.94,-110.14 545.56,-103.66 536.89,-97.66"/>
 <polygon fill="black" stroke="black" points="537.72,-95.69 531.59,-94 535.33,-99.14 537.72,-95.69"/>
 </g>
-<!-- 127802 -->
-<!-- 4428516048&#45;&gt;127802 -->
-<!-- 4428516384 -->
+<!-- 780882 -->
+<!-- 4636138128&#45;&gt;780882 -->
+<!-- 4636138512 -->
 <g id="node16" class="node">
-<title>4428516384</title>
+<title>4636138512</title>
 <polygon fill="white" stroke="black" points="783,-94 679,-94 679,-58 783,-58 783,-94"/>
 <text text-anchor="middle" x="731" y="-72.9" font-family="Helvetica,sans-Serif" font-size="12.00">Salzwasserfisch</text>
 </g>
-<!-- 4428516048&#45;&gt;4428516384 -->
+<!-- 4636138128&#45;&gt;4636138512 -->
 <g id="edge15" class="edge">
-<title>4428516048&#45;&gt;4428516384</title>
+<title>4636138128&#45;&gt;4636138512</title>
 <path fill="none" stroke="black" d="M615.23,-122.34C634.06,-114.96 659.63,-104.95 681.96,-96.2"/>
 <polygon fill="black" stroke="black" points="682.74,-98.16 687.56,-94.01 681.21,-94.24 682.74,-98.16"/>
 </g>
-<!-- 4428520032 -->
+<!-- 4636136304 -->
 <g id="node8" class="node">
-<title>4428520032</title>
+<title>4636136304</title>
 <polygon fill="white" stroke="black" points="54,-36 0,-36 0,0 54,0 54,-36"/>
 <text text-anchor="middle" x="27" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Collie</text>
 </g>
-<!-- 4428515424&#45;&gt;4428520032 -->
+<!-- 4636137456&#45;&gt;4636136304 -->
 <g id="edge7" class="edge">
-<title>4428515424&#45;&gt;4428520032</title>
+<title>4636137456&#45;&gt;4636136304</title>
 <path fill="none" stroke="black" d="M66.59,-57.89C60.95,-52.36 54.63,-46.15 48.72,-40.34"/>
 <polygon fill="black" stroke="black" points="50.06,-38.71 44.3,-36 47.11,-41.7 50.06,-38.71"/>
 </g>
-<!-- 101275 -->
-<!-- 4428515424&#45;&gt;101275 -->
-<!-- 4428515472 -->
+<!-- 275275 -->
+<!-- 4636137456&#45;&gt;275275 -->
+<!-- 4636137552 -->
 <g id="node10" class="node">
-<title>4428515472</title>
+<title>4636137552</title>
 <polygon fill="white" stroke="black" points="168,-36 114,-36 114,0 168,0 168,-36"/>
 <text text-anchor="middle" x="141" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Dackel</text>
 </g>
-<!-- 4428515424&#45;&gt;4428515472 -->
+<!-- 4636137456&#45;&gt;4636137552 -->
 <g id="edge9" class="edge">
-<title>4428515424&#45;&gt;4428515472</title>
+<title>4636137456&#45;&gt;4636137552</title>
 <path fill="none" stroke="black" d="M101.41,-57.89C107.05,-52.36 113.37,-46.15 119.28,-40.34"/>
 <polygon fill="black" stroke="black" points="120.89,-41.7 123.7,-36 117.94,-38.71 120.89,-41.7"/>
 </g>
-<!-- 4428515760 -->
+<!-- 4636137792 -->
 <g id="node11" class="node">
-<title>4428515760</title>
+<title>4636137792</title>
 <polygon fill="white" stroke="black" points="280.5,-36 197.5,-36 197.5,0 280.5,0 280.5,-36"/>
 <text text-anchor="middle" x="239" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Schimpanse</text>
 </g>
-<!-- 4428515664&#45;&gt;4428515760 -->
+<!-- 4636137744&#45;&gt;4636137792 -->
 <g id="edge10" class="edge">
-<title>4428515664&#45;&gt;4428515760</title>
+<title>4636137744&#45;&gt;4636137792</title>
 <path fill="none" stroke="black" d="M288.31,-57.89C281.15,-52.25 273.11,-45.9 265.63,-40"/>
 <polygon fill="black" stroke="black" points="266.57,-38.07 260.56,-36 263.97,-41.37 266.57,-38.07"/>
 </g>
-<!-- 708163 -->
-<!-- 4428515664&#45;&gt;708163 -->
-<!-- 4428515904 -->
+<!-- 444511 -->
+<!-- 4636137744&#45;&gt;444511 -->
+<!-- 4636137936 -->
 <g id="node13" class="node">
-<title>4428515904</title>
+<title>4636137936</title>
 <polygon fill="white" stroke="black" points="394,-36 340,-36 340,0 394,0 394,-36"/>
 <text text-anchor="middle" x="367" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Gorilla</text>
 </g>
-<!-- 4428515664&#45;&gt;4428515904 -->
+<!-- 4636137744&#45;&gt;4636137936 -->
 <g id="edge12" class="edge">
-<title>4428515664&#45;&gt;4428515904</title>
+<title>4636137744&#45;&gt;4636137936</title>
 <path fill="none" stroke="black" d="M327.41,-57.89C333.05,-52.36 339.37,-46.15 345.28,-40.34"/>
 <polygon fill="black" stroke="black" points="346.89,-41.7 349.7,-36 343.94,-38.71 346.89,-41.7"/>
 </g>
-<!-- 4428516240 -->
+<!-- 4636138416 -->
 <g id="node17" class="node">
-<title>4428516240</title>
+<title>4636138416</title>
 <polygon fill="white" stroke="black" points="477,-36 423,-36 423,0 477,0 477,-36"/>
 <text text-anchor="middle" x="450" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Forelle</text>
 </g>
-<!-- 4428516144&#45;&gt;4428516240 -->
+<!-- 4636138224&#45;&gt;4636138416 -->
 <g id="edge16" class="edge">
-<title>4428516144&#45;&gt;4428516240</title>
+<title>4636138224&#45;&gt;4636138416</title>
 <path fill="none" stroke="black" d="M489.59,-57.89C483.95,-52.36 477.63,-46.15 471.72,-40.34"/>
 <polygon fill="black" stroke="black" points="473.06,-38.71 467.3,-36 470.11,-41.7 473.06,-38.71"/>
 </g>
-<!-- 58628 -->
-<!-- 4428516144&#45;&gt;58628 -->
-<!-- 4428516336 -->
+<!-- 838953 -->
+<!-- 4636138224&#45;&gt;838953 -->
+<!-- 4636138464 -->
 <g id="node19" class="node">
-<title>4428516336</title>
+<title>4636138464</title>
 <polygon fill="white" stroke="black" points="603.5,-36 536.5,-36 536.5,0 603.5,0 603.5,-36"/>
 <text text-anchor="middle" x="570" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Goldfisch</text>
 </g>
-<!-- 4428516144&#45;&gt;4428516336 -->
+<!-- 4636138224&#45;&gt;4636138464 -->
 <g id="edge18" class="edge">
-<title>4428516144&#45;&gt;4428516336</title>
+<title>4636138224&#45;&gt;4636138464</title>
 <path fill="none" stroke="black" d="M526.24,-57.89C532.6,-52.25 539.73,-45.9 546.37,-40"/>
 <polygon fill="black" stroke="black" points="547.78,-41.56 550.87,-36 544.99,-38.42 547.78,-41.56"/>
 </g>
-<!-- 4428516432 -->
+<!-- 4636138560 -->
 <g id="node20" class="node">
-<title>4428516432</title>
+<title>4636138560</title>
 <polygon fill="white" stroke="black" points="701.5,-36 632.5,-36 632.5,0 701.5,0 701.5,-36"/>
 <text text-anchor="middle" x="667" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Thunfisch</text>
 </g>
-<!-- 4428516384&#45;&gt;4428516432 -->
+<!-- 4636138512&#45;&gt;4636138560 -->
 <g id="edge19" class="edge">
-<title>4428516384&#45;&gt;4428516432</title>
+<title>4636138512&#45;&gt;4636138560</title>
 <path fill="none" stroke="black" d="M711.45,-57.89C705,-52.25 697.75,-45.9 691,-40"/>
 <polygon fill="black" stroke="black" points="692.33,-38.37 686.43,-36 689.56,-41.53 692.33,-38.37"/>
 </g>
-<!-- 907501 -->
-<!-- 4428516384&#45;&gt;907501 -->
-<!-- 4428516528 -->
+<!-- 212432 -->
+<!-- 4636138512&#45;&gt;212432 -->
+<!-- 4636138656 -->
 <g id="node22" class="node">
-<title>4428516528</title>
+<title>4636138656</title>
 <polygon fill="white" stroke="black" points="815,-36 761,-36 761,0 815,0 815,-36"/>
 <text text-anchor="middle" x="788" y="-14.9" font-family="Helvetica,sans-Serif" font-size="12.00">Hai</text>
 </g>
-<!-- 4428516384&#45;&gt;4428516528 -->
+<!-- 4636138512&#45;&gt;4636138656 -->
 <g id="edge21" class="edge">
-<title>4428516384&#45;&gt;4428516528</title>
+<title>4636138512&#45;&gt;4636138656</title>
 <path fill="none" stroke="black" d="M748.41,-57.89C754.05,-52.36 760.37,-46.15 766.28,-40.34"/>
 <polygon fill="black" stroke="black" points="767.89,-41.7 770.7,-36 764.94,-38.71 767.89,-41.7"/>
 </g>
