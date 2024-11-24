@@ -20,7 +20,8 @@ all: help
 # und im Browser aktualisiert. Man muss nichts weiter tun!!!
 develop:
 	jupyter-book config sphinx .
-	sphinx-autobuild . _build/html -b html --port 0 --open-browser    # usage: https://pypi.org/project/sphinx-autobuild/0.7.0/
+	sphinx-autobuild . _build/html -b html --port 0 --open-browser
+	# usage: https://pypi.org/project/sphinx-autobuild/0.7.0/
 
 # Löscht alle erzeugten Dateien und Verzeichnisse
 clean:
