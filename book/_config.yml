@@ -17,6 +17,27 @@ html:
             🤖
         </div>
 
+#######################################################################################
+# Parse and render settings
+parse:
+  myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+  myst_url_schemes: [ mailto, http, https ]
+  myst_dmath_double_inline: true
+
+
+
+#######################################################################################
+# Advanced and power-user settings
 sphinx:
   config:
     language: de
