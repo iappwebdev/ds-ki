@@ -16,7 +16,7 @@ plt.scatter(data_1[:, 0], data_1[:, 1], s=5, color='black')
 plt.xlabel('Merkmal 1')
 plt.ylabel('Merkmal 2')
 plt.grid(True)
-plt.savefig("images_ki/kmeans_3_cluster_einfach_datenpunkte.svg")
+plt.savefig("images/kmeans_3_cluster_einfach_datenpunkte.svg")
 plt.show()
 
 # KMeans Clustering für die ersten Datenpunkte (einfache Unterscheidung)
@@ -49,7 +49,7 @@ plt.grid(True)
 
 # Legende mit größeren Punkten
 plt.legend(handles=scatterpoints, scatterpoints=True, markerscale=3)
-plt.savefig("images_ki/kmeans_3_cluster_einfach_ergebnis.svg")
+plt.savefig("images/kmeans_3_cluster_einfach_ergebnis.svg")
 plt.show()
 
 # Generierung von zufälligen Datenpunkten für drei Cluster, die enger beieinander liegen (Plot 3 und 4)
@@ -65,7 +65,7 @@ plt.scatter(data_2[:, 0], data_2[:, 1], s=5, color='black')
 plt.xlabel('Merkmal 1')
 plt.ylabel('Merkmal 2')
 plt.grid(True)
-plt.savefig("images_ki/kmeans_3_cluster_komplex_datenpunkte.svg")
+plt.savefig("images/kmeans_3_cluster_komplex_datenpunkte.svg")
 plt.show()
 
 # KMeans Clustering für die zweiten Datenpunkte (schwierigere Unterscheidung)
@@ -95,5 +95,5 @@ plt.grid(True)
 
 # Legende mit größeren Punkten
 plt.legend(handles=scatterpoints, scatterpoints=True, markerscale=3)
-plt.savefig("images_ki/kmeans_3_cluster_komplex_ergebnis.svg")
+plt.savefig("images/kmeans_3_cluster_komplex_ergebnis.svg")
 plt.show()

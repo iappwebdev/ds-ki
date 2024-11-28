@@ -13,7 +13,7 @@
 
 \begin{document}
 
-\title{\textbf{Arbeitsblatt: K-Means-Clustering mit Manhattan-Distanz}}
+\title{\textbf{k-Means-Clustering mit Manhattan-Distanz}}
 \author{}
 \date{}
 
@@ -21,12 +21,12 @@
 
 \section*{Einführung}
 
-In dieser Übung wirst du den K-Means-Clustering-Algorithmus anwenden, um eine Menge von Datenpunkten in Cluster zu gruppieren. Dabei verwendest du die \textbf{Manhattan-Distanz} zur Berechnung der Distanzen zwischen Punkten und Zentroiden.
+In dieser Übung wirst du den k-Means-Clustering-Algorithmus anwenden, um eine Menge von Datenpunkten in Cluster zu gruppieren. Dabei verwendest du die \textbf{Manhattan-Distanz} zur Berechnung der Distanzen zwischen Punkten und Zentroiden.
 
 \section*{Aufgabe}
 
 \begin{enumerate}
-    \item \textbf{K-Means-Algorithmus durchführen}:
+    \item \textbf{k-Means-Algorithmus durchführen}:
     \begin{enumerate}
         \item Berechne die Manhattan-Distanzen zwischen jedem Datenpunkt und den Zentroiden.
         \item Weise jeden Datenpunkt dem nächstgelegenen Zentroiden zu und markiere die Datenpunkte entsprechend ihrer Clusterzugehörigkeit, indem du sie mit einem Symbol umschließt:
@@ -86,7 +86,7 @@ $l$ & 9 & 7  \\ \hline
 
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}[scale=0.4]
-    \draw[step=1cm,lightgray,very thin] (0,0) grid (10,11);
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
     \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
     \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
     % X-Achse Beschriftung
@@ -141,7 +141,7 @@ l & & & & \\ \hline
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}[scale=0.4]
-    \draw[step=1cm,lightgray,very thin] (0,0) grid (10,11);
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
     \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
     \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
     % X-Achse Beschriftung
@@ -193,7 +193,7 @@ l & & & & \\ \hline
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}[scale=0.4]
-    \draw[step=1cm,lightgray,very thin] (0,0) grid (10,11);
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
     \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
     \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
     % X-Achse Beschriftung
@@ -245,7 +245,7 @@ l & & & & \\ \hline
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}[scale=0.4]
-    \draw[step=1cm,lightgray,very thin] (0,0) grid (10,11);
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
     \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
     \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
     % X-Achse Beschriftung

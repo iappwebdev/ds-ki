@@ -5,21 +5,19 @@ from sklearn.cluster import KMeans
 from matplotlib import rcParams
 from imojify import imojify
 
-# Schriftart setzen, um Emojis in den Diagrammen zu unterstützen
-rcParams['font.family'] = 'Segoe UI Emoji'
-
 # Daten vorbereiten
 data = {
-    "Obst": ["Apfel", "Birne", "Banane", "Orange", "Weintrauben", "Erdbeere", "Wassermelone", "Mango"],
-    "Wassergehalt": [85, 83, 75, 87, 81, 91, 92, 83],
-    "Fruchtzuckergehalt": [10, 10, 12, 8, 16, 5, 6, 14]
+    "Obst": ["Apfel", "Birne", "Banane", "Orange", "Weintrauben", "Erdbeere", "Wassermelone", "Mango"], #"Kiwi", "Pfirsich", "Ananas"],
+    "Wassergehalt": [85, 83, 75, 87, 81, 91, 92, 83], #78, 88, 82],
+    "Fruchtzuckergehalt": [10, 10, 12, 8, 16, 5, 6, 14], #9, 7, 15],
 }
 
 df = pd.DataFrame(data)
 
 # K-Means Clustering
 # Um unterschiedliche Resultate zu erhalten, kann random_state auf andere Werte als 42 gesetzt werden
-random_state = 99
+random_state, colors = 5, ['r', 'g', 'b']
+#random_state, colors = 42, ['r', 'g', 'b']
 # Um das Bild ohne Datenpunkte zu erhalten, muss temporär zorder=3 für add_image() gesetzt werden
 zorder_emojis = 1
 
@@ -35,7 +33,10 @@ emoji_map = {
     "Weintrauben": "🍇",
     "Erdbeere": "🍓",
     "Wassermelone": "🍉",
-    "Mango": "🥭"
+    "Mango": "🥭",
+    # "Kiwi": "🥝",
+    # "Pfirsich": "🍑",
+    # "Ananas": "🍍",
 }
 
 # Diagramm einrichten
@@ -68,8 +69,6 @@ for i, row in df.iterrows():
         add_image(emoji_path, row['Wassergehalt'], row['Fruchtzuckergehalt'], zoom=0.075, x_offset=0.0, y_offset=0.0)
 
 # Jedes Cluster separat plotten, um unterschiedliche Legendeinträge zu erzeugen
-colors = ['#381fb4', '#2ca02c', '#a14242']  # Definierte Farben für die drei Cluster
-
 for cluster in sorted(df['Cluster'].unique()):  # Cluster sortieren, damit die Legende in der gewünschten Reihenfolge ist
     cluster_data = df[df['Cluster'] == cluster]
     plt.scatter(cluster_data['Wassergehalt'], cluster_data['Fruchtzuckergehalt'],
@@ -77,7 +76,7 @@ for cluster in sorted(df['Cluster'].unique()):  # Cluster sortieren, damit die L
 
 # Nur aktivieren, wenn neu erzeugt werden soll, zorder_emojis=3 setzen (s.o.)
 # plt.draw()
-# plt.savefig("images_ki/kmeans_obst.svg")
+# plt.savefig("images/kmeans_obst.svg")
 
 # Zentroiden der Cluster plotten, mit den gleichen Farben wie die Cluster
 centroids = kmeans.cluster_centers_
@@ -95,4 +94,4 @@ for i, (x, y) in enumerate(centroids):
 
 # Hinzufügen von Beschriftungen, Legende und Raster
 plt.legend()
-plt.savefig(f"images_ki/kmeans_obst_clusters_{random_state}.svg")
+plt.savefig(f"images/kmeans_obst_clusters_{random_state}.svg")
