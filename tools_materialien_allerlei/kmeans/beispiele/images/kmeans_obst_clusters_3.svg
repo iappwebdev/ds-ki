@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="576pt" viewBox="0 0 720 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-11-28T23:20:46.162003</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 720 576 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 90 512.64 
+L 648 512.64 
+L 648 69.12 
+L 90 69.12 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="AnnotationBbox_1">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAFKElEQVR4nO1aXUgcVxT+ZtwYTdxVS+tqAmqy9YfSElOsIA2lARNKXxolD30otBCa/iAm9KUUWkIg0IdSCWkLqaVIWyh9CT4UhLSJQkPbNDE1glVjXUWKiZoSdddV17hz+7Du5s7MvXfu/G0i9HvZuWfOPed895wzM9y7wP/YWlDcGnhcycu/WlSTJBlj2Qs9auNjigagFHnq9WBNimfvyfiY65jADkEOVw5WBw6UrN7XUsDybD7uju4UT+AQ5sEtQUeTSWuYyOhN9peApNwlwClB25PSpOjll09F9OdSR0vphJytCbKZkkH0Uqkt/fr4mLqRXkUpSBPzkhSN6KUSYRh0PdjJnJSiX6RoyGZQlpylUi5IZX1pwGSfNUEZcqro5oWmkhobcVFwthaKCkRaFiz1JoL1lg6ExNp2bx+3ERcFd4/4SMsCisqTQp2z23cdchRBbkpQ/KogBJi8zC9NUUkKM+Ycsmsizqyi8EuTAJgI1nM/zZjEyJGyG5KR8UJyN90AFrlND9zEsG8oyrPehOQdKp9fYsongnW3WHKfStF7bCvUwC5xpZalbyKWy/eWXURaFpnybQyZhxnLzXqw+m2U8V7zkJi3DwwxrBdxy/QYDV5J0tARI63ha34F4zcaDWNjxp6TN+Wkp5z2oXle1YFF3fiHYP0EPXZRik56ymkfmucFCkxkI/RgS/aYDALCu691ADVPp69PHc9BON6BkTEqxRlSvsHtu49wTagGvdu5fR+59KVAv1lGQUfsaiz5FNfI6S6bXnPzJZL1YlgjHbHmvkX2J7Qj5CDzhO/F3lPRdtb8Bn/xxMQ+fd8sc0TO/7IcSK0epccmYkrP3INliHF2jD44Sw1kgnZTloRzrcerK9MX6LF1Kc5MmWUFO6jM+d1LCudaDCYxXda6PubPbj8t7chr0DvHhOAz431Rxkj2h/fV8USF0LlGCHonV9E5EMd3fyWQIlZl66wXa5bHOowy7ieV0jOnprcJNpN36rjUg+P70QRmE5pORgD8GNqDuzeiOvl7jUGjV0v7APDPH6Hs9biW/JKlI+wxXUkC5sxFR3TDzoF4mpRh4X+tqMWGmmey3zkQxxd/xkUhMLEef2Dr5cTU2ywdz05bVtYIzg8vm+R1q8X4em8YAPDG1B1MFJiJ5OcB7fuN2WOD7i3RTrCN87Gy3wClWdbp5ixEWhbRNpPuxU9G17LyX4rmsBBYz2q+sljJtLm7MYaCkpTJvtWJi8OjWkstnekMsap35kya754IQSVUGBInvzLHSK5eQpJ7kEttMxXFADD9EsELe+Y5xoD2E8VCQ56faLpBa1ODlvEzeTjt7mBkVjinvUNP0PfDdSdobWrIZjVDDAAij8VQWbrCnbehqa9/fmzmW6d+fd3zoEldHBrRpSF6L4T+aDl3bkDVvjnZXaFxFSzgG7Ejjfsu0uOV5Hps6MygqUL6ouUYmef2lnKyu8LR54hvxBRVOZy5JiB/Z68JYjo9AHPxQkP29FyckPO0x1qbGhIAdhjlPddu6vzs+3C/IdDNZzwBdoUSqCszv8S1DXSde/POW7KxeJsxgn+Not7B4ZBRZi7J9JAowO34TmbvqQHY2v/zlFjP9ZtVRlny/gbzY5DVb7SgP1qO/mhYd99OSXreY8ayE2HozKCSWkv9ztdQ0B8tx/Q9i78MMmc+Iqj+KHKomIR+Eum8uHcWw1dWGi53Lw1Z2XtkiBkRbg4XFT9T2ltYVlANKCoIia3Or50b/2rs/MOO7aHiP5hqp0/Kqpn2AAAAAElFTkSuQmCC" id="image3e575bed1e" transform="scale(1 -1) translate(0 -38.88)" x="394.559358" y="-289.527273" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_2">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAEHElEQVR4nO1ZW0hUQRj+ZtfUttTUciUsLLWX2tYuD10Ioqg4W1lIQXR7KKWXKEJ6kIgIoh7qLQglIYhKoqDooaCHXop6ioo1qCxC7HI0Sio3U9edHtaze3Z3zu7MOTNHhL6XMzPnn/n/b/65/gP8x+QCUdFoaTnx3HjkHwXg4RA/owX1k7JtkEbswpXSloVLCy5YClAKkBzqKLq1en2BDHscE3vwsvIZCFbwyFJehRQPtXp9kxO7HBF78KqSOqmfC1pQt20fzxzIgDcPxDEpjtpOdNjqEdWeSocdzwl7zG1SdnUKEZsIUgYu3fHvE5G3NccmAvPmk6si8tzEJtJbBppbiqt4ZV32GGWk+NG439fLK+syMcJIqcGkmWOi4CJ29nbxRdWG8OJpd1kHjxwXsfo6X4hVXj1bw9zKDSJ2OcbPP/kHeOS4iBGgML0sUNuMIl8VSqZXI1DbLGqfE3BNTy5iFHjuzBb3wUWs7czAjoxCmvKR7rXaqUcRmHaOpTbMU5+L2L1bwyMZhSTlYw3WhsWxiRV6KpjlDcv1xblrA3k8Qo7AYm7RG4aHwpFWdEVOMGWio3xqRfaxJ6xCc+fP8a8TaA6YU7ALgWnnEoReR04J1c8GbmJaUF9jzoffXwaQ2vkzimqElPcOdwIAxugQACCGEYQjrdls4D6wCA1FQmk7JeSQ1X/x8x+JE+EOhoi0LIj0Uz5rNTS8KROit2jhs2JSQZwfi0RF2dKs3gv44vMqn5TH86Z5xsLBLd+KRe20dQiOk0t24NuemwCSQ9Fftiz+l7LpDVEdADBCvyfrWfYEjX7pHfstaqPtkT2vLq/00u2ZP4z8opomEEIS0+VT/2MM/Hpjt/kE7IbgbF9bPnZHB7ye2B0j3/WhA6DJnqqqWGNRkwELb7keVzSwMdDfCJNZ4Q9ZbhQWwxIAc9w4IQVIuGhqQd3Uhtl4mrpijg9TzjYdL/5SbtB3rw2uMtLJVTLTtvQSi5WQ89CUHVKItZ8ffCZciYJ5ytCCer4Mm6TFPKJR2mnO5xx27ME2JskcecS2LuvbbaTD7zsSdns9BdxtaEFd2m1DUZQq6a/C/DI1KnJAKjHzakbHl/fI369cdSlix2TaIj1uaTcULmOJN0P6UKTAz6x/M1JqIJ1YKKjPsP7LDnEPRWLbZNuhZvGIYa+IeOOq/nuyTVD2NpA+116cXwkAWHI8dS9vavjm+9wzNiRbv7JHCZ7FIFSvExWkAMXhN4PcsdMlu2YBnQBAQe+Hgn2bVeoFXHpGmvVu3Woj7QYpwK33MYLDRtJfUuR1Q6XrD3+UkClu6HGdGKGZT1IqoJxYa6PWlsjEIz3CoTQ7UE6syFeYjBwToCW0tlq1TsCdoZiyUUeJd6cLOt3DkS3rr5/ds717ou2Y9PgHlyAdzcQ70S8AAAAASUVORK5CYII=" id="image7b3079cb5b" transform="scale(1 -1) translate(0 -38.88)" x="334.880214" y="-289.527273" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_3">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAFiElEQVR4nO1Za2xURRT+zt2ltS2PlqI0hlaQ0NC0SlQCqVD56aMrJIZHEI2aqBGjhmyDQRIT05BANFkwalRAlETaUEBoWuwaTYwSxMAvH2hsAlasr1JpQFq3sHuPP+52d+9j5s5dZ1s1fsnmzp05c8757pk581jgf/y7QPl04vZaFrXNefpMZd9g6kL+LumBMrGt61YOAqjcFPkyiP4Ure0NB/ZKA4wAspUAsK37piD6Q9xey7IIFwqBv+amB48ADMCcBFyqUe6XJmfS2t5QUJv5INAc4x5jEESVno1Dc9WNru3Na24DQEkxiv8cxaivjaCKOR7aCmCTZ6MZAi7OVtITlJwZDzOmLALdsNnyg002qpcLp1JeXy55lO4PhYx9QgHF6KmQMwiU7Amb1HDE3X9WRNg/SPLIINzMbY9uN6uFAhVnYE1EOVSSSrInbFL9Ya+mK7J+QmLmd7svyzLaWx9wf8vO1GTPzgyg4iyUyLXVdgh9iIcZFAbIHRiaFSmW6RVHrKyqjJfGwE0xcHstv/jA9HKnSOw9DLe8mprktpp+VpyV2R6TXeVVnYqHfwEAqj/or8MD8qGYdpCbYtjYPGPISyTWjSST+YxQR8UZXye8RgUBVaAiT/mi2SvcH9MBIbFtbxwoz7XG8x8SzgnjTn7F7qlDoOxXPz9sMONhEwCo3nuUXk2mkhwD5/5cPomUb96y96JtZF+7QOoM3ZXKijunRNGwtC/gipo0W3oRcSJQVuS6h6WZ7OgpXifubSrZOLHD2AAAXuldhNePY5GzLhixGTdL2yPPm23CxorvffWPvFs3afF8Y3sQnwD89uQhnHJW+hPLiQ8BQLhUGrU344IlQAEloZR0bfICRVHlVS8lxoDFJocGN26RGnpiB/wnlMheenmQDsMB27FpjUhMSoxchRwnZLsGxvuuupEZMlNqYACfv5R5pSiEi7vfULQNjTEm3BSznu3zPvPqRHenml2Vo9OkhnjKj1aheqNYiAAkPJdTF6TEXth50rZtyQ0cl1UBoEYlKyqb4vBVy8a0JUoqAfTJGqXEWltbxY23PgtAYSM7dGO23NjkKcJTz6VLPpv93EQWxRyZaF67+4ydzJCsZd5ft9AlMDQXGWeNEGAYwJJlbkWhpOVsg+cuPosDEWXflM5jZn+3NCp0LJr7yi69RMDtd9hbj38ChglU9Fn1898BhcvljnSkiRlYTBtwUuqTXJMFOzG33xlldoIWGpusSOUirYK/edvqV70ZmObaPNhtdWSjRVF/v5VP0KrkAICOtQALFwHF1/gr5jogVCsTADruzepWIAWpdx7wG5JgoHTeSkokEuBzj+Vx5TYVGLoeSF0BTrcB57+ymacolG+4AiUPw7pjcB1RDvecWGbMipBRHaFEIhFEpQOXQAtaCB8/93IOqT0UBQUhBeR5maMC9ouu2elZTTW7tPg0IdfPAABjhfXkCwAf069eu8agoOnWU/Ml+MQTG4PmSVEQYvxT12p7hWpHTunyoTARY9pvI+M409nK5qeZ4qqnPlJY+NRQuKHoHFokasseQw529SV1mf/nzDHNGB9iojlWwL8Dx4eYKOPl1N/3+IfX6TSpndhw76HlysI5u4/D8b7zOv3QTqy0tPiIuHX8/oouxFCULLXOvG+9Dl+6MlO3ExOQFdO8zW8zr5Mb9g7otjKB6b63oNonfB3TdUxxQiux1ZGl9ygJCs5iOqH1a3F/1x6AHrFeJNpTnQAVLlqA7qHIlP1DwunyWDI0O8fa/s4dgi+0EluzfttrwkYCYHZnX2t2lei07WVOK6R3HWYnAAbV7C7YEByD/qzoRYuRSRhffP3HbdpteqAgX84VtTSpmbfsmzLw+8jlQtgcV3B/12n+Yf3PE+3Hfwp/Af5TsOqmGfVAAAAAAElFTkSuQmCC" id="imageaaa7984ecf" transform="scale(1 -1) translate(0 -38.88)" x="96.163636" y="-216.218182" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_4">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAESElEQVR4nO1aS2gTQRj+pia2Wu3D1NZGVGxVFCx68dKD4KEnD0KtgqiooAeLeIgooqCiJxVzERQfB5+9aG96EMGL0qtCpV5aKaJt0y41bTUJaZPxkO52HzO7s7uTF/aDkOzsPL5v/3/+2fknwCLKC0RWR001wNg1pABUeu6E4i45h7My+PgS9v0yHm4M4ZQMIiyQiHd+nhrSKKjXAb2g/jKWxpOYddPGlbBCCzLDjQWFKi4LIpC46e6J5RGvSAQHnSo5CqNRjANYLYUSAPTXqT0DbVOeu3GyXoXdzXnXkyfKAH8B2WlacIXRKMZ8jcxDW1xaV3bimMLmn2WTNAZmtMWlCaR3MMAqZwrLFjn6uQLBNlaxRVixQ7oXsDjbBo9ywscz6NRfG0ITjSIOoLaQhGyhLQ0QmpP6JcBssdIR5ROl7YouI+ealVil/tZMR6MYANgRppyguqPeYmUvSo/SdkUf+E+FdZ3KfcoQYhYrJXH9dcb1jQO+sPYO43UpiOsXX2b5wgJBa9nWnR7YSEQ4KVyVL+zTO2vZ9l1e6MhDKC1clS8sm2GX7z/plo5cCO7lNGFNVxAQ6phIy7FKR/NVLFd/a8LG/8BqIsrZmhU7kKiR0URvbAbaJDS7orFq72NWaQ7FFgcAX+u4twzCSIQz5/TepxfZ0eWDlQuY165wIvetm2vmdJzzAv36kfFa37y2HmgMuyPpB6q4UNoxgFiEMRORU5P8HnbvBWpDbuh5x5ZpZjGLM9NiGYo3hoL3vfYDdnTa3/cLNcRXZq33KEZZTbixm5mt0gIGBSixtja7bQHAS3Vz5xizgUacIUoGpoLMMM6DXf7eNnhwxcV+io2sQ48SQmR4PfpmVvAr/ajOfX91ftl1OpQQeu7cJOq+40Bw/mX5bQ+Q/GupcmKwBXOMYZ5vGmIP1l/rdArzk0Swzp6xC4eiUfwC4Dq2Hx1sZZbvq/+NrpBNtGXAzcGf2PthrtO1gLwU+N+MeFbCy1m0sDD9IHs2I/jhNMT3EAwca1TwIbUW71IbcgUUFv+hFK9v3+g74KV/37GNRpF16icyvB4Tcwsb16etQ7g41W58U6P8jQOloLdv9LlKPEkN2jubUfH5PL4B2GK+p59r4QbO0RvDanrcut4n93BdBo50t1rmZrih0TUFUXFFzSuOKOMYUWLCCzIAXLjSLlS7IBY7dLrl6BJCnjFv6txvedUy1K2osa2jwslyBbGYWVTvk2FtC68nnEglMaLEMKLEkMlmFwxJKMxmdbJc3oUd7m6xpBySiYw1j2aiGZucwOi8SGU6DvUJ6KudvdS+gzduXoWtbq5qIJQYxshScgQAXtwbMroSAXeupdNpzZKjSgyzc7k/CVUF8IU3dl6FTYymFJAFuhRAz/3Bl+o1UxwDZr0T8UlNaCDgnM0oGlhLgQh6HnyvyGbYqbSSEKZCVGDvk+HqZCKTyDefRRQS/wA5uUH7H4Im5gAAAABJRU5ErkJggg==" id="imageeca092d233" transform="scale(1 -1) translate(0 -38.88)" x="454.238503" y="-362.836364" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_5">
+    <image xlink:href="data:image/png;base64,
+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" id="imagea6ee93da9b" transform="scale(1 -1) translate(0 -38.88)" x="275.20107" y="-69.6" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_6">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAFvUlEQVR4nO1aXWgcVRT+7u7mP5tuf2Jikt02u/mxRQQtUtOXRu1DAuKD0Gpb+iBqEwXRQqSIFbEqIg3YJ5MglmIwkr4otpKHFEkqPoRAUMGUpplN2U2qIWncdvOf3b0+zM7u7M6dmTs/u/WhH4TcuXPnnPPdc+accycBHiK/uFK2u+mnYu9jZp8ndhpjBdPlTedAyIdaa1qit8gCElzyHiixUThcte7GLaPPNURv6tqdd2IVcBRMuBs3rcrRI5dTYtPupr8Aso9KilIDe6BFzlZiDgBT7maaMWkzmWyokbNFZQuKHf3u3XH5nF189OXQ+w3RqW3Zsy6riqezPZSEZAwvwUCwPzUW/CcVctRBKlizponNF1V1RQs957Pn66piKCo0KGzke7NmqMIUsWl3M43KrgPemDUrrv4CvPCc6J7W4wh4xSAIzjpBqbmANvyUPPR0CY0mPXH3X+Clt4yqSmFjE5idV/cBK4EY8ti0u5k6HRR7auP6i0dl4RX+24gaBYoKxU0Uwk7w+oKbWKSm+dQ2j8mQe+cTc89lIeCNg1IgOOvSTUrcoUj3BZjZL2+QIuDQsRQ5CaxQdPDIZJIqLQEGLpi00gJ8NSAc7tAlRvcGXlFMjgwAQxeB2qrMdylXePNEehy6A0A/cel7jEBpeeXTQJlXHB86xm+gFrQ2qOc75rSvOobR2MoXrHuaTh2sqWo86imfYhtBgHv3gRdPaYnQByFiBABim9JqbKPIpMDkoJkVmaQA+7wEiKSkFEf5DpE8MN1SCWHxUQehqK/TqGtSiFEKtB5X3l9bB0qKxfGzJ5T3TUKTmGR89osqhF24dnkJQsiPjq4IhLCL/TKPDgK79gOL41BNZW2vmrNcB6rJ41Z5U2r7hLArWfXTpADA7w2ir9uTmlcgISNrZ/hyQDV5qB1Hfu2JYGNn+l0QQn48MbKBlqtrqNwRR0VZfuu4WvJQeOzCj3X0vb4DdOJwEVOQnBQAEFD82SquXVhyWjbULijip7hoA05nDONtJRhvK4EjTvHGmXsAgMmOZYUAv28GQsifumaGZBYsH3M4wLRiT20IgBhmCSdBX7cH5XcTqHpyiU9qLr5zjAyws6oKNLc34AsiQYGZsB/LOx2o0lh740Ah9o5t4uKnFdgqZuekjq4IACCeAJzyJWWl4u+VVbZwE20bgxj9DCAfSFcOzu9m14+U4voR0cCAL6i4Lw/X23Oy8jD8LVBYII71MichYj3kgGJrO9sXz2bPBXwzHKIoSktWmKQ08ehB/rWcpAADnYeWwYQk4K2eRUGBhaSg1XWYqIGWP78BgN972/zDjzfYYYICzLe8s33B1pw2v/iIOMhj7eY6QVvF8mq5OJBtl4HXRRVqXQegQWxjzfWUddVpvH4mknEdnHVxFXOz0Ay53qFKy/sqhOqZal57PwJX8i9j/roY13cMORJwXnJOTqkeDTRD8fffNp83po4FtsXffO5BX7cHyx4ifk4zuIVapNS1ymCH19QgFe2OrghAgYAvltllqKT5wknBsaWTinSTh90ZUo6AL5iujwTc/aUeKYA3KxatK7oRy6Diz+GjOwAkO365uSre0sqEGet47bA7JEvnnDh4Ov33Op6jDC8pwKbOwygkL0mwmxTA6TG7vOX7ejuahjNV5oIUwEGsZ6jyHAE0/7GEB/Jji3Quk6BFzgwpgCN5sEjNTa13gOKKEUX13vTRp6/bg6n9BalrVgcytrr2tllSgIk6Jk//xAH0/GwsTGf/qcHGpviB9ORHEZSupO8lPXeZTAovG5HJgqbHeoc9P2jdp4kU0T94FdZV30nVrv6PPYglHdcQvUnIpEDsIAUY7BX1inXv0K4vAfIur3JKgWDYj/MdY7Y3AbYeWzrbF093ti+QzvYFcmNi85LeekJAB8+P56Tk2Oqx/xP0PDaWFytyAE1ine0Lz+TLkAeGs19tN/1vrA9hI/4DU/DUFi12XksAAAAASUVORK5CYII=" id="imageb5397a1f53" transform="scale(1 -1) translate(0 -38.88)" x="573.596791" y="-472.8" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_7">
+    <image xlink:href="data:image/png;base64,
+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" id="imageae4a31fae4" transform="scale(1 -1) translate(0 -38.88)" x="603.436364" y="-436.145455" width="38.88" height="38.88"/>
+   </g>
+   <g id="AnnotationBbox_8">
+    <image xlink:href="data:image/png;base64,
+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" id="image05f741cfcd" transform="scale(1 -1) translate(0 -38.88)" x="334.880214" y="-142.909091" width="38.88" height="38.88"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m24604dccde" d="M -7.071068 7.071068 
+L 7.071068 -7.071068 
+M -7.071068 -7.071068 
+L 7.071068 7.071068 
+" style="stroke: #ff0000; stroke-width: 3"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#m24604dccde" x="254.614973" y="162.589091" style="fill: #ff0000; stroke: #ff0000; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m0436780460" d="M -7.071068 7.071068 
+L 7.071068 -7.071068 
+M -7.071068 -7.071068 
+L 7.071068 7.071068 
+" style="stroke: #008000; stroke-width: 3"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#m0436780460" x="413.759358" y="333.643636" style="fill: #008000; stroke: #008000; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m04ecac3cb5" d="M -7.071068 7.071068 
+L 7.071068 -7.071068 
+M -7.071068 -7.071068 
+L 7.071068 7.071068 
+" style="stroke: #0000ff; stroke-width: 3"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#m04ecac3cb5" x="607.716578" y="474.152727" style="fill: #0000ff; stroke: #0000ff; stroke-width: 3"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 115.363636 512.64 
+L 115.363636 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m746febd2e2" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m746febd2e2" x="115.363636" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 75.0 -->
+      <g transform="translate(106.193324 527.043125) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-37" d="M 3156 4319 
+L 1381 0 
+L 850 0 
+L 2528 4019 
+L 269 4019 
+L 269 4481 
+L 3156 4481 
+L 3156 4319 
+z
+" transform="scale(0.015625)"/>
+        <path id="SegoeUIEmoji-35" d="M 513 109 
+L 513 653 
+Q 972 356 1447 356 
+Q 1922 356 2212 625 
+Q 2503 894 2503 1338 
+Q 2503 1778 2206 2025 
+Q 1909 2272 1356 2272 
+Q 1169 2272 653 2234 
+L 653 4481 
+L 2822 4481 
+L 2822 4019 
+L 1138 4019 
+L 1138 2706 
+Q 1344 2719 1519 2719 
+Q 2238 2719 2631 2358 
+Q 3025 1997 3025 1369 
+Q 3025 719 2601 322 
+Q 2178 -75 1441 -75 
+Q 819 -75 513 109 
+z
+" transform="scale(0.015625)"/>
+        <path id="SegoeUIEmoji-2e" d="M 697 -69 
+Q 553 -69 451 34 
+Q 350 138 350 281 
+Q 350 425 451 529 
+Q 553 634 697 634 
+Q 844 634 947 529 
+Q 1050 425 1050 281 
+Q 1050 138 947 34 
+Q 844 -69 697 -69 
+z
+" transform="scale(0.015625)"/>
+        <path id="SegoeUIEmoji-30" d="M 1681 -75 
+Q 1016 -75 642 497 
+Q 269 1069 269 2150 
+Q 269 3338 658 3947 
+Q 1047 4556 1781 4556 
+Q 3188 4556 3188 2259 
+Q 3188 1122 2791 523 
+Q 2394 -75 1681 -75 
+z
+M 1753 4122 
+Q 794 4122 794 2175 
+Q 794 356 1734 356 
+Q 2663 356 2663 2206 
+Q 2663 4122 1753 4122 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-37"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 189.962567 512.64 
+L 189.962567 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m746febd2e2" x="189.962567" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 77.5 -->
+      <g transform="translate(180.792254 527.043125) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-37"/>
+       <use xlink:href="#SegoeUIEmoji-37" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 264.561497 512.64 
+L 264.561497 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m746febd2e2" x="264.561497" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 80.0 -->
+      <g transform="translate(255.391185 527.043125) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-38" d="M 1281 2350 
+L 1281 2363 
+Q 475 2738 475 3450 
+Q 475 3934 844 4245 
+Q 1213 4556 1794 4556 
+Q 2319 4556 2656 4265 
+Q 2994 3975 2994 3519 
+Q 2994 2775 2163 2363 
+L 2163 2350 
+Q 3144 2000 3144 1138 
+Q 3144 581 2744 253 
+Q 2344 -75 1631 -75 
+Q 1056 -75 684 250 
+Q 313 575 313 1094 
+Q 313 1956 1281 2350 
+z
+M 2469 3456 
+Q 2469 3766 2275 3944 
+Q 2081 4122 1747 4122 
+Q 1434 4122 1217 3936 
+Q 1000 3750 1000 3463 
+Q 1000 2878 1728 2581 
+Q 2469 2888 2469 3456 
+z
+M 1694 2106 
+Q 838 1766 838 1119 
+Q 838 784 1086 570 
+Q 1334 356 1741 356 
+Q 2128 356 2373 567 
+Q 2619 778 2619 1100 
+Q 2619 1775 1694 2106 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-38"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 339.160428 512.64 
+L 339.160428 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m746febd2e2" x="339.160428" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 82.5 -->
+      <g transform="translate(329.990115 527.043125) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-32" d="M 2413 3306 
+Q 2413 3513 2348 3666 
+Q 2284 3819 2173 3920 
+Q 2063 4022 1913 4072 
+Q 1763 4122 1588 4122 
+Q 1438 4122 1294 4081 
+Q 1150 4041 1014 3969 
+Q 878 3897 751 3797 
+Q 625 3697 516 3575 
+L 516 4125 
+Q 731 4334 998 4445 
+Q 1266 4556 1650 4556 
+Q 1925 4556 2159 4476 
+Q 2394 4397 2566 4244 
+Q 2738 4091 2836 3866 
+Q 2934 3641 2934 3350 
+Q 2934 3084 2873 2868 
+Q 2813 2653 2689 2462 
+Q 2566 2272 2378 2097 
+Q 2191 1922 1938 1741 
+Q 1622 1516 1417 1356 
+Q 1213 1197 1092 1058 
+Q 972 919 923 780 
+Q 875 641 875 459 
+L 3106 459 
+L 3106 0 
+L 341 0 
+L 341 222 
+Q 341 509 403 728 
+Q 466 947 609 1144 
+Q 753 1341 986 1537 
+Q 1219 1734 1556 1981 
+Q 1800 2156 1964 2315 
+Q 2128 2475 2228 2634 
+Q 2328 2794 2370 2958 
+Q 2413 3122 2413 3306 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-38"/>
+       <use xlink:href="#SegoeUIEmoji-32" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 413.759358 512.64 
+L 413.759358 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m746febd2e2" x="413.759358" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 85.0 -->
+      <g transform="translate(404.589046 527.043125) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-38"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 488.358289 512.64 
+L 488.358289 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m746febd2e2" x="488.358289" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 87.5 -->
+      <g transform="translate(479.187976 527.043125) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-38"/>
+       <use xlink:href="#SegoeUIEmoji-37" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 562.957219 512.64 
+L 562.957219 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m746febd2e2" x="562.957219" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 90.0 -->
+      <g transform="translate(553.786907 527.043125) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-39" d="M 538 75 
+L 538 569 
+Q 913 356 1331 356 
+Q 1941 356 2280 847 
+Q 2619 1338 2619 2241 
+Q 2613 2238 2606 2241 
+Q 2319 1663 1606 1663 
+Q 1031 1663 662 2053 
+Q 294 2444 294 3059 
+Q 294 3716 698 4136 
+Q 1103 4556 1734 4556 
+Q 2397 4556 2767 4032 
+Q 3138 3509 3138 2509 
+Q 3138 1269 2656 597 
+Q 2175 -75 1319 -75 
+Q 869 -75 538 75 
+z
+M 1688 4122 
+Q 1316 4122 1067 3842 
+Q 819 3563 819 3131 
+Q 819 2659 1062 2389 
+Q 1306 2119 1722 2119 
+Q 2084 2119 2336 2366 
+Q 2588 2613 2588 2969 
+Q 2588 3478 2338 3800 
+Q 2088 4122 1688 4122 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-39"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 637.55615 512.64 
+L 637.55615 69.12 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m746febd2e2" x="637.55615" y="512.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 92.5 -->
+      <g transform="translate(628.385837 527.043125) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-39"/>
+       <use xlink:href="#SegoeUIEmoji-32" x="53.90625"/>
+       <use xlink:href="#SegoeUIEmoji-2e" x="107.8125"/>
+       <use xlink:href="#SegoeUIEmoji-35" x="129.492188"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_9">
+     <!-- Wassergehalt (%) -->
+     <g transform="translate(331.128125 540.74625) scale(0.1 -0.1)">
+      <defs>
+       <path id="SegoeUIEmoji-57" d="M 5900 4481 
+L 4634 0 
+L 4019 0 
+L 3097 3275 
+Q 3038 3484 3025 3731 
+L 3013 3731 
+Q 2994 3500 2931 3281 
+L 2003 0 
+L 1394 0 
+L 81 4481 
+L 659 4481 
+L 1613 1044 
+Q 1672 828 1688 594 
+L 1703 594 
+Q 1719 759 1800 1044 
+L 2791 4481 
+L 3294 4481 
+L 4244 1019 
+Q 4294 841 4319 600 
+L 4331 600 
+Q 4344 763 4416 1031 
+L 5331 4481 
+L 5900 4481 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-61" d="M 2809 0 
+L 2297 0 
+L 2297 500 
+L 2284 500 
+Q 1950 -75 1300 -75 
+Q 822 -75 551 178 
+Q 281 431 281 850 
+Q 281 1747 1338 1894 
+L 2297 2028 
+Q 2297 2844 1638 2844 
+Q 1059 2844 594 2450 
+L 594 2975 
+Q 1066 3275 1681 3275 
+Q 2809 3275 2809 2081 
+L 2809 0 
+z
+M 2297 1619 
+L 1525 1513 
+Q 1169 1463 987 1336 
+Q 806 1209 806 888 
+Q 806 653 973 504 
+Q 1141 356 1419 356 
+Q 1800 356 2048 623 
+Q 2297 891 2297 1300 
+L 2297 1619 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-73" d="M 325 116 
+L 325 666 
+Q 744 356 1247 356 
+Q 1922 356 1922 806 
+Q 1922 934 1864 1023 
+Q 1806 1113 1707 1181 
+Q 1609 1250 1476 1304 
+Q 1344 1359 1191 1419 
+Q 978 1503 817 1589 
+Q 656 1675 548 1783 
+Q 441 1891 386 2028 
+Q 331 2166 331 2350 
+Q 331 2575 434 2748 
+Q 538 2922 709 3039 
+Q 881 3156 1101 3215 
+Q 1322 3275 1556 3275 
+Q 1972 3275 2300 3131 
+L 2300 2613 
+Q 1947 2844 1488 2844 
+Q 1344 2844 1228 2811 
+Q 1113 2778 1030 2718 
+Q 947 2659 901 2576 
+Q 856 2494 856 2394 
+Q 856 2269 901 2184 
+Q 947 2100 1034 2034 
+Q 1122 1969 1247 1916 
+Q 1372 1863 1531 1800 
+Q 1744 1719 1912 1633 
+Q 2081 1547 2200 1439 
+Q 2319 1331 2383 1190 
+Q 2447 1050 2447 856 
+Q 2447 619 2342 444 
+Q 2238 269 2063 153 
+Q 1888 38 1659 -18 
+Q 1431 -75 1181 -75 
+Q 688 -75 325 116 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-65" d="M 3091 1472 
+L 831 1472 
+Q 844 938 1119 647 
+Q 1394 356 1875 356 
+Q 2416 356 2869 713 
+L 2869 231 
+Q 2447 -75 1753 -75 
+Q 1075 -75 687 361 
+Q 300 797 300 1588 
+Q 300 2334 723 2804 
+Q 1147 3275 1775 3275 
+Q 2403 3275 2747 2869 
+Q 3091 2463 3091 1741 
+L 3091 1472 
+z
+M 2566 1906 
+Q 2563 2350 2352 2597 
+Q 2141 2844 1766 2844 
+Q 1403 2844 1150 2584 
+Q 897 2325 838 1906 
+L 2566 1906 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-72" d="M 2188 2681 
+Q 2053 2784 1800 2784 
+Q 1472 2784 1251 2475 
+Q 1031 2166 1031 1631 
+L 1031 0 
+L 519 0 
+L 519 3200 
+L 1031 3200 
+L 1031 2541 
+L 1044 2541 
+Q 1153 2878 1378 3067 
+Q 1603 3256 1881 3256 
+Q 2081 3256 2188 3213 
+L 2188 2681 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-67" d="M 3250 256 
+Q 3250 -1506 1563 -1506 
+Q 969 -1506 525 -1281 
+L 525 -769 
+Q 1066 -1069 1556 -1069 
+Q 2738 -1069 2738 188 
+L 2738 538 
+L 2725 538 
+Q 2359 -75 1625 -75 
+Q 1028 -75 664 351 
+Q 300 778 300 1497 
+Q 300 2313 692 2794 
+Q 1084 3275 1766 3275 
+Q 2413 3275 2725 2756 
+L 2738 2756 
+L 2738 3200 
+L 3250 3200 
+L 3250 256 
+z
+M 2738 1447 
+L 2738 1919 
+Q 2738 2300 2480 2572 
+Q 2222 2844 1838 2844 
+Q 1363 2844 1094 2498 
+Q 825 2153 825 1531 
+Q 825 997 1083 676 
+Q 1341 356 1766 356 
+Q 2197 356 2467 662 
+Q 2738 969 2738 1447 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-68" d="M 3175 0 
+L 2663 0 
+L 2663 1844 
+Q 2663 2844 1919 2844 
+Q 1544 2844 1287 2555 
+Q 1031 2266 1031 1813 
+L 1031 0 
+L 519 0 
+L 519 4738 
+L 1031 4738 
+L 1031 2669 
+L 1044 2669 
+Q 1413 3275 2094 3275 
+Q 3175 3275 3175 1972 
+L 3175 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-6c" d="M 1031 0 
+L 519 0 
+L 519 4738 
+L 1031 4738 
+L 1031 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-74" d="M 2003 31 
+Q 1822 -69 1525 -69 
+Q 684 -69 684 869 
+L 684 2763 
+L 134 2763 
+L 134 3200 
+L 684 3200 
+L 684 3981 
+L 1197 4147 
+L 1197 3200 
+L 2003 3200 
+L 2003 2763 
+L 1197 2763 
+L 1197 959 
+Q 1197 638 1306 500 
+Q 1416 363 1669 363 
+Q 1863 363 2003 469 
+L 2003 31 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-20" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-28" d="M 1863 -1019 
+L 1406 -1019 
+Q 438 88 438 1709 
+Q 438 3338 1406 4481 
+L 1869 4481 
+Q 888 3294 888 1716 
+Q 888 150 1863 -1019 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-25" d="M 1263 2234 
+Q 800 2234 525 2539 
+Q 250 2844 250 3353 
+Q 250 3909 540 4229 
+Q 831 4550 1325 4550 
+Q 1803 4550 2067 4253 
+Q 2331 3956 2331 3419 
+Q 2331 2881 2036 2557 
+Q 1741 2234 1263 2234 
+z
+M 1306 4206 
+Q 1009 4206 837 3986 
+Q 666 3766 666 3381 
+Q 666 3003 834 2792 
+Q 1003 2581 1294 2581 
+Q 1588 2581 1753 2800 
+Q 1919 3019 1919 3406 
+Q 1919 3784 1755 3995 
+Q 1591 4206 1306 4206 
+z
+M 4263 4481 
+L 1388 -31 
+L 941 -31 
+L 3813 4481 
+L 4263 4481 
+z
+M 3931 -69 
+Q 3469 -69 3194 237 
+Q 2919 544 2919 1050 
+Q 2919 1606 3212 1929 
+Q 3506 2253 3994 2253 
+Q 4469 2253 4734 1953 
+Q 5000 1653 5000 1113 
+Q 5000 578 4704 254 
+Q 4409 -69 3931 -69 
+z
+M 3975 1900 
+Q 3675 1900 3504 1681 
+Q 3334 1463 3334 1075 
+Q 3334 703 3503 492 
+Q 3672 281 3963 281 
+Q 4256 281 4422 501 
+Q 4588 722 4588 1106 
+Q 4588 1488 4423 1694 
+Q 4259 1900 3975 1900 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-29" d="M 531 -1019 
+L 75 -1019 
+Q 1050 150 1050 1716 
+Q 1050 3294 69 4481 
+L 531 4481 
+Q 1506 3338 1506 1709 
+Q 1506 88 531 -1019 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#SegoeUIEmoji-57"/>
+      <use xlink:href="#SegoeUIEmoji-61" x="89.658203"/>
+      <use xlink:href="#SegoeUIEmoji-73" x="140.537109"/>
+      <use xlink:href="#SegoeUIEmoji-73" x="182.96875"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="225.400391"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="277.695312"/>
+      <use xlink:href="#SegoeUIEmoji-67" x="311.085938"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="369.972656"/>
+      <use xlink:href="#SegoeUIEmoji-68" x="422.267578"/>
+      <use xlink:href="#SegoeUIEmoji-61" x="478.859375"/>
+      <use xlink:href="#SegoeUIEmoji-6c" x="529.738281"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="553.957031"/>
+      <use xlink:href="#SegoeUIEmoji-20" x="587.84375"/>
+      <use xlink:href="#SegoeUIEmoji-28" x="615.236328"/>
+      <use xlink:href="#SegoeUIEmoji-25" x="645.412109"/>
+      <use xlink:href="#SegoeUIEmoji-29" x="727.248047"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_17">
+      <path d="M 90 455.825455 
+L 648 455.825455 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <defs>
+       <path id="m8d29bc9e40" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="455.825455" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 6 -->
+      <g transform="translate(77.609375 459.527017) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-36" d="M 2919 4428 
+L 2919 3944 
+Q 2572 4122 2188 4122 
+Q 1591 4122 1233 3590 
+Q 875 3059 875 2169 
+L 888 2169 
+Q 1200 2803 1913 2803 
+Q 2500 2803 2847 2426 
+Q 3194 2050 3194 1419 
+Q 3194 759 2797 342 
+Q 2400 -75 1788 -75 
+Q 1113 -75 728 462 
+Q 344 1000 344 1972 
+Q 344 3150 847 3853 
+Q 1350 4556 2175 4556 
+Q 2644 4556 2919 4428 
+z
+M 1800 2369 
+Q 1403 2369 1156 2100 
+Q 909 1831 909 1466 
+Q 909 1006 1154 681 
+Q 1400 356 1806 356 
+Q 2194 356 2431 639 
+Q 2669 922 2669 1356 
+Q 2669 1831 2441 2100 
+Q 2213 2369 1800 2369 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-36"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_19">
+      <path d="M 90 382.516364 
+L 648 382.516364 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="382.516364" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 8 -->
+      <g transform="translate(77.609375 386.217926) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-38"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_21">
+      <path d="M 90 309.207273 
+L 648 309.207273 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="309.207273" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 10 -->
+      <g transform="translate(72.21875 312.908835) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-31" d="M 2263 0 
+L 1750 0 
+L 1750 3872 
+Q 1691 3813 1577 3736 
+Q 1463 3659 1320 3584 
+Q 1178 3509 1020 3443 
+Q 863 3378 713 3341 
+L 713 3859 
+Q 881 3906 1070 3986 
+Q 1259 4066 1442 4164 
+Q 1625 4263 1787 4370 
+Q 1950 4478 2069 4581 
+L 2263 4581 
+L 2263 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-31"/>
+       <use xlink:href="#SegoeUIEmoji-30" x="53.90625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_23">
+      <path d="M 90 235.898182 
+L 648 235.898182 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="235.898182" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 12 -->
+      <g transform="translate(72.21875 239.599744) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-31"/>
+       <use xlink:href="#SegoeUIEmoji-32" x="53.90625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_25">
+      <path d="M 90 162.589091 
+L 648 162.589091 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="162.589091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 14 -->
+      <g transform="translate(72.21875 166.290653) scale(0.1 -0.1)">
+       <defs>
+        <path id="SegoeUIEmoji-34" d="M 2656 4481 
+L 2656 1522 
+L 3231 1522 
+L 3231 1053 
+L 2656 1053 
+L 2656 0 
+L 2150 0 
+L 2150 1053 
+L 44 1053 
+L 44 1497 
+Q 338 1828 638 2204 
+Q 938 2581 1211 2968 
+Q 1484 3356 1717 3742 
+Q 1950 4128 2109 4481 
+L 2656 4481 
+z
+M 622 1522 
+L 2150 1522 
+L 2150 3716 
+Q 1916 3306 1706 2984 
+Q 1497 2663 1308 2400 
+Q 1119 2138 947 1925 
+Q 775 1713 622 1522 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SegoeUIEmoji-31"/>
+       <use xlink:href="#SegoeUIEmoji-34" x="53.90625"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_27">
+      <path d="M 90 89.28 
+L 648 89.28 
+" clip-path="url(#p4779e3a9cf)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m8d29bc9e40" x="90" y="89.28" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 16 -->
+      <g transform="translate(72.21875 92.981563) scale(0.1 -0.1)">
+       <use xlink:href="#SegoeUIEmoji-31"/>
+       <use xlink:href="#SegoeUIEmoji-36" x="53.90625"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_16">
+     <!-- Fruchtzuckergehalt (g/100g) -->
+     <g transform="translate(65.865625 352.940938) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="SegoeUIEmoji-46" d="M 2863 4006 
+L 1113 4006 
+L 1113 2456 
+L 2731 2456 
+L 2731 1984 
+L 1113 1984 
+L 1113 0 
+L 588 0 
+L 588 4481 
+L 2863 4481 
+L 2863 4006 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-75" d="M 3106 0 
+L 2594 0 
+L 2594 506 
+L 2581 506 
+Q 2263 -75 1594 -75 
+Q 450 -75 450 1288 
+L 450 3200 
+L 959 3200 
+L 959 1369 
+Q 959 356 1734 356 
+Q 2109 356 2351 632 
+Q 2594 909 2594 1356 
+L 2594 3200 
+L 3106 3200 
+L 3106 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-63" d="M 2700 147 
+Q 2331 -75 1825 -75 
+Q 1141 -75 720 370 
+Q 300 816 300 1525 
+Q 300 2316 753 2795 
+Q 1206 3275 1963 3275 
+Q 2384 3275 2706 3119 
+L 2706 2594 
+Q 2350 2844 1944 2844 
+Q 1453 2844 1139 2492 
+Q 825 2141 825 1569 
+Q 825 1006 1120 681 
+Q 1416 356 1913 356 
+Q 2331 356 2700 634 
+L 2700 147 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-7a" d="M 2750 3053 
+L 856 438 
+L 2731 438 
+L 2731 0 
+L 103 0 
+L 103 159 
+L 1997 2763 
+L 281 2763 
+L 281 3200 
+L 2750 3200 
+L 2750 3053 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-6b" d="M 3175 0 
+L 2456 0 
+L 1044 1538 
+L 1031 1538 
+L 1031 0 
+L 519 0 
+L 519 4738 
+L 1031 4738 
+L 1031 1734 
+L 1044 1734 
+L 2388 3200 
+L 3059 3200 
+L 1575 1656 
+L 3175 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="SegoeUIEmoji-2f" d="M 2541 4481 
+L 391 -744 
+L -88 -744 
+L 2056 4481 
+L 2541 4481 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#SegoeUIEmoji-46"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="48.828125"/>
+      <use xlink:href="#SegoeUIEmoji-75" x="83.59375"/>
+      <use xlink:href="#SegoeUIEmoji-63" x="140.185547"/>
+      <use xlink:href="#SegoeUIEmoji-68" x="186.376953"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="242.96875"/>
+      <use xlink:href="#SegoeUIEmoji-7a" x="276.855469"/>
+      <use xlink:href="#SegoeUIEmoji-75" x="322.070312"/>
+      <use xlink:href="#SegoeUIEmoji-63" x="378.662109"/>
+      <use xlink:href="#SegoeUIEmoji-6b" x="424.853516"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="472.560547"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="524.855469"/>
+      <use xlink:href="#SegoeUIEmoji-67" x="558.246094"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="617.132812"/>
+      <use xlink:href="#SegoeUIEmoji-68" x="669.427734"/>
+      <use xlink:href="#SegoeUIEmoji-61" x="726.019531"/>
+      <use xlink:href="#SegoeUIEmoji-6c" x="776.898438"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="801.117188"/>
+      <use xlink:href="#SegoeUIEmoji-20" x="835.003906"/>
+      <use xlink:href="#SegoeUIEmoji-28" x="862.396484"/>
+      <use xlink:href="#SegoeUIEmoji-67" x="892.572266"/>
+      <use xlink:href="#SegoeUIEmoji-2f" x="951.458984"/>
+      <use xlink:href="#SegoeUIEmoji-31" x="990.423828"/>
+      <use xlink:href="#SegoeUIEmoji-30" x="1044.330078"/>
+      <use xlink:href="#SegoeUIEmoji-30" x="1098.236328"/>
+      <use xlink:href="#SegoeUIEmoji-67" x="1152.142578"/>
+      <use xlink:href="#SegoeUIEmoji-29" x="1211.029297"/>
+     </g>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="m05b3255beb" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #ff0000"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#m05b3255beb" x="115.363636" y="235.898182" style="fill: #ff0000; stroke: #ff0000"/>
+     <use xlink:href="#m05b3255beb" x="294.40107" y="89.28" style="fill: #ff0000; stroke: #ff0000"/>
+     <use xlink:href="#m05b3255beb" x="354.080214" y="162.589091" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="mdd0c3a829e" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #008000"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#mdd0c3a829e" x="413.759358" y="309.207273" style="fill: #008000; stroke: #008000"/>
+     <use xlink:href="#mdd0c3a829e" x="354.080214" y="309.207273" style="fill: #008000; stroke: #008000"/>
+     <use xlink:href="#mdd0c3a829e" x="473.438503" y="382.516364" style="fill: #008000; stroke: #008000"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path id="mb452d47d23" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #0000ff"/>
+    </defs>
+    <g clip-path="url(#p4779e3a9cf)">
+     <use xlink:href="#mb452d47d23" x="592.796791" y="492.48" style="fill: #0000ff; stroke: #0000ff"/>
+     <use xlink:href="#mb452d47d23" x="622.636364" y="455.825455" style="fill: #0000ff; stroke: #0000ff"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 90 512.64 
+L 90 69.12 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 648 512.64 
+L 648 69.12 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 90 512.64 
+L 648 512.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 90 69.12 
+L 648 69.12 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 570.332813 121.229375 
+L 641 121.229375 
+Q 643 121.229375 643 119.229375 
+L 643 76.12 
+Q 643 74.12 641 74.12 
+L 570.332813 74.12 
+Q 568.332813 74.12 568.332813 76.12 
+L 568.332813 119.229375 
+Q 568.332813 121.229375 570.332813 121.229375 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="PathCollection_7">
+     <g>
+      <use xlink:href="#m05b3255beb" x="582.332813" y="82.898125" style="fill: #ff0000; stroke: #ff0000"/>
+     </g>
+    </g>
+    <g id="text_17">
+     <!-- Cluster 1 -->
+     <g transform="translate(600.332813 85.523125) scale(0.1 -0.1)">
+      <defs>
+       <path id="SegoeUIEmoji-43" d="M 3638 188 
+Q 3141 -75 2400 -75 
+Q 1444 -75 869 540 
+Q 294 1156 294 2156 
+Q 294 3231 941 3893 
+Q 1588 4556 2581 4556 
+Q 3219 4556 3638 4372 
+L 3638 3813 
+Q 3156 4081 2575 4081 
+Q 1803 4081 1323 3565 
+Q 844 3050 844 2188 
+Q 844 1369 1292 883 
+Q 1741 397 2469 397 
+Q 3144 397 3638 697 
+L 3638 188 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#SegoeUIEmoji-43"/>
+      <use xlink:href="#SegoeUIEmoji-6c" x="61.914062"/>
+      <use xlink:href="#SegoeUIEmoji-75" x="86.132812"/>
+      <use xlink:href="#SegoeUIEmoji-73" x="142.724609"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="185.15625"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="218.292969"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="270.587891"/>
+      <use xlink:href="#SegoeUIEmoji-20" x="305.353516"/>
+      <use xlink:href="#SegoeUIEmoji-31" x="332.746094"/>
+     </g>
+    </g>
+    <g id="PathCollection_8">
+     <g>
+      <use xlink:href="#mdd0c3a829e" x="582.332813" y="97.60125" style="fill: #008000; stroke: #008000"/>
+     </g>
+    </g>
+    <g id="text_18">
+     <!-- Cluster 2 -->
+     <g transform="translate(600.332813 100.22625) scale(0.1 -0.1)">
+      <use xlink:href="#SegoeUIEmoji-43"/>
+      <use xlink:href="#SegoeUIEmoji-6c" x="61.914062"/>
+      <use xlink:href="#SegoeUIEmoji-75" x="86.132812"/>
+      <use xlink:href="#SegoeUIEmoji-73" x="142.724609"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="185.15625"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="218.292969"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="270.587891"/>
+      <use xlink:href="#SegoeUIEmoji-20" x="305.353516"/>
+      <use xlink:href="#SegoeUIEmoji-32" x="332.746094"/>
+     </g>
+    </g>
+    <g id="PathCollection_9">
+     <g>
+      <use xlink:href="#mb452d47d23" x="582.332813" y="112.304375" style="fill: #0000ff; stroke: #0000ff"/>
+     </g>
+    </g>
+    <g id="text_19">
+     <!-- Cluster 3 -->
+     <g transform="translate(600.332813 114.929375) scale(0.1 -0.1)">
+      <defs>
+       <path id="SegoeUIEmoji-33" d="M 409 166 
+L 409 719 
+Q 869 356 1447 356 
+Q 1916 356 2195 590 
+Q 2475 825 2475 1222 
+Q 2475 2100 1228 2100 
+L 856 2100 
+L 856 2534 
+L 1209 2534 
+Q 2319 2534 2319 3359 
+Q 2319 4122 1472 4122 
+Q 1000 4122 581 3800 
+L 581 4300 
+Q 1013 4556 1600 4556 
+Q 2166 4556 2505 4256 
+Q 2844 3956 2844 3488 
+Q 2844 2603 1944 2350 
+L 1944 2338 
+Q 2428 2291 2714 1998 
+Q 3000 1706 3000 1269 
+Q 3000 666 2567 295 
+Q 2134 -75 1425 -75 
+Q 788 -75 409 166 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#SegoeUIEmoji-43"/>
+      <use xlink:href="#SegoeUIEmoji-6c" x="61.914062"/>
+      <use xlink:href="#SegoeUIEmoji-75" x="86.132812"/>
+      <use xlink:href="#SegoeUIEmoji-73" x="142.724609"/>
+      <use xlink:href="#SegoeUIEmoji-74" x="185.15625"/>
+      <use xlink:href="#SegoeUIEmoji-65" x="218.292969"/>
+      <use xlink:href="#SegoeUIEmoji-72" x="270.587891"/>
+      <use xlink:href="#SegoeUIEmoji-20" x="305.353516"/>
+      <use xlink:href="#SegoeUIEmoji-33" x="332.746094"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="text_20">
+   <g id="patch_8">
+    <path d="M 139 410.5 
+L 252.3875 410.5 
+L 252.3875 390.796875 
+L 139 390.796875 
+z
+" style="fill: #d3d3d3; opacity: 0.5; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <!-- Centroid 1: 79.67, 14.00 -->
+   <g style="fill: #ff0000" transform="translate(144 403.2) scale(0.1 -0.1)">
+    <defs>
+     <path id="SegoeUIEmoji-6e" d="M 3175 0 
+L 2663 0 
+L 2663 1825 
+Q 2663 2844 1919 2844 
+Q 1534 2844 1282 2555 
+Q 1031 2266 1031 1825 
+L 1031 0 
+L 519 0 
+L 519 3200 
+L 1031 3200 
+L 1031 2669 
+L 1044 2669 
+Q 1406 3275 2094 3275 
+Q 2619 3275 2897 2936 
+Q 3175 2597 3175 1956 
+L 3175 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="SegoeUIEmoji-6f" d="M 1856 -75 
+Q 1147 -75 723 373 
+Q 300 822 300 1563 
+Q 300 2369 740 2822 
+Q 1181 3275 1931 3275 
+Q 2647 3275 3048 2834 
+Q 3450 2394 3450 1613 
+Q 3450 847 3017 386 
+Q 2584 -75 1856 -75 
+z
+M 1894 2844 
+Q 1400 2844 1112 2508 
+Q 825 2172 825 1581 
+Q 825 1013 1115 684 
+Q 1406 356 1894 356 
+Q 2391 356 2658 678 
+Q 2925 1000 2925 1594 
+Q 2925 2194 2658 2519 
+Q 2391 2844 1894 2844 
+z
+" transform="scale(0.015625)"/>
+     <path id="SegoeUIEmoji-69" d="M 781 4013 
+Q 644 4013 547 4106 
+Q 450 4200 450 4344 
+Q 450 4488 547 4583 
+Q 644 4678 781 4678 
+Q 922 4678 1020 4583 
+Q 1119 4488 1119 4344 
+Q 1119 4206 1020 4109 
+Q 922 4013 781 4013 
+z
+M 1031 0 
+L 519 0 
+L 519 3200 
+L 1031 3200 
+L 1031 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="SegoeUIEmoji-64" d="M 3250 0 
+L 2738 0 
+L 2738 544 
+L 2725 544 
+Q 2369 -75 1625 -75 
+Q 1022 -75 661 354 
+Q 300 784 300 1525 
+Q 300 2319 700 2797 
+Q 1100 3275 1766 3275 
+Q 2425 3275 2725 2756 
+L 2738 2756 
+L 2738 4738 
+L 3250 4738 
+L 3250 0 
+z
+M 2738 1447 
+L 2738 1919 
+Q 2738 2306 2481 2575 
+Q 2225 2844 1831 2844 
+Q 1363 2844 1094 2500 
+Q 825 2156 825 1550 
+Q 825 997 1083 676 
+Q 1341 356 1775 356 
+Q 2203 356 2470 665 
+Q 2738 975 2738 1447 
+z
+" transform="scale(0.015625)"/>
+     <path id="SegoeUIEmoji-3a" d="M 697 2575 
+Q 553 2575 451 2678 
+Q 350 2781 350 2925 
+Q 350 3069 451 3169 
+Q 553 3269 697 3269 
+Q 844 3269 947 3169 
+Q 1050 3069 1050 2925 
+Q 1050 2781 947 2678 
+Q 844 2575 697 2575 
+z
+M 697 -69 
+Q 553 -69 451 34 
+Q 350 138 350 281 
+Q 350 425 451 529 
+Q 553 634 697 634 
+Q 844 634 947 529 
+Q 1050 425 1050 281 
+Q 1050 138 947 34 
+Q 844 -69 697 -69 
+z
+" transform="scale(0.015625)"/>
+     <path id="SegoeUIEmoji-2c" d="M 988 713 
+L 488 -825 
+L 122 -825 
+L 488 713 
+L 988 713 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#SegoeUIEmoji-43"/>
+    <use xlink:href="#SegoeUIEmoji-65" x="61.914062"/>
+    <use xlink:href="#SegoeUIEmoji-6e" x="114.208984"/>
+    <use xlink:href="#SegoeUIEmoji-74" x="170.800781"/>
+    <use xlink:href="#SegoeUIEmoji-72" x="204.6875"/>
+    <use xlink:href="#SegoeUIEmoji-6f" x="238.078125"/>
+    <use xlink:href="#SegoeUIEmoji-69" x="296.671875"/>
+    <use xlink:href="#SegoeUIEmoji-64" x="320.890625"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="379.777344"/>
+    <use xlink:href="#SegoeUIEmoji-31" x="407.169922"/>
+    <use xlink:href="#SegoeUIEmoji-3a" x="461.076172"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="482.755859"/>
+    <use xlink:href="#SegoeUIEmoji-37" x="510.148438"/>
+    <use xlink:href="#SegoeUIEmoji-39" x="564.054688"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="617.960938"/>
+    <use xlink:href="#SegoeUIEmoji-36" x="639.640625"/>
+    <use xlink:href="#SegoeUIEmoji-37" x="693.546875"/>
+    <use xlink:href="#SegoeUIEmoji-2c" x="747.453125"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="769.132812"/>
+    <use xlink:href="#SegoeUIEmoji-31" x="796.525391"/>
+    <use xlink:href="#SegoeUIEmoji-34" x="850.431641"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="904.337891"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="926.017578"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="979.923828"/>
+   </g>
+  </g>
+  <g id="text_21">
+   <g id="patch_9">
+    <path d="M 139 439.3 
+L 246.996875 439.3 
+L 246.996875 419.596875 
+L 139 419.596875 
+z
+" style="fill: #d3d3d3; opacity: 0.5; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <!-- Centroid 2: 85.00, 9.33 -->
+   <g style="fill: #008000" transform="translate(144 432) scale(0.1 -0.1)">
+    <use xlink:href="#SegoeUIEmoji-43"/>
+    <use xlink:href="#SegoeUIEmoji-65" x="61.914062"/>
+    <use xlink:href="#SegoeUIEmoji-6e" x="114.208984"/>
+    <use xlink:href="#SegoeUIEmoji-74" x="170.800781"/>
+    <use xlink:href="#SegoeUIEmoji-72" x="204.6875"/>
+    <use xlink:href="#SegoeUIEmoji-6f" x="238.078125"/>
+    <use xlink:href="#SegoeUIEmoji-69" x="296.671875"/>
+    <use xlink:href="#SegoeUIEmoji-64" x="320.890625"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="379.777344"/>
+    <use xlink:href="#SegoeUIEmoji-32" x="407.169922"/>
+    <use xlink:href="#SegoeUIEmoji-3a" x="461.076172"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="482.755859"/>
+    <use xlink:href="#SegoeUIEmoji-38" x="510.148438"/>
+    <use xlink:href="#SegoeUIEmoji-35" x="564.054688"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="617.960938"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="639.640625"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="693.546875"/>
+    <use xlink:href="#SegoeUIEmoji-2c" x="747.453125"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="769.132812"/>
+    <use xlink:href="#SegoeUIEmoji-39" x="796.525391"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="850.431641"/>
+    <use xlink:href="#SegoeUIEmoji-33" x="872.111328"/>
+    <use xlink:href="#SegoeUIEmoji-33" x="926.017578"/>
+   </g>
+  </g>
+  <g id="text_22">
+   <g id="patch_10">
+    <path d="M 139 468.1 
+L 246.996875 468.1 
+L 246.996875 448.396875 
+L 139 448.396875 
+z
+" style="fill: #d3d3d3; opacity: 0.5; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <!-- Centroid 3: 91.50, 5.50 -->
+   <g style="fill: #0000ff" transform="translate(144 460.8) scale(0.1 -0.1)">
+    <use xlink:href="#SegoeUIEmoji-43"/>
+    <use xlink:href="#SegoeUIEmoji-65" x="61.914062"/>
+    <use xlink:href="#SegoeUIEmoji-6e" x="114.208984"/>
+    <use xlink:href="#SegoeUIEmoji-74" x="170.800781"/>
+    <use xlink:href="#SegoeUIEmoji-72" x="204.6875"/>
+    <use xlink:href="#SegoeUIEmoji-6f" x="238.078125"/>
+    <use xlink:href="#SegoeUIEmoji-69" x="296.671875"/>
+    <use xlink:href="#SegoeUIEmoji-64" x="320.890625"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="379.777344"/>
+    <use xlink:href="#SegoeUIEmoji-33" x="407.169922"/>
+    <use xlink:href="#SegoeUIEmoji-3a" x="461.076172"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="482.755859"/>
+    <use xlink:href="#SegoeUIEmoji-39" x="510.148438"/>
+    <use xlink:href="#SegoeUIEmoji-31" x="564.054688"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="617.960938"/>
+    <use xlink:href="#SegoeUIEmoji-35" x="639.640625"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="693.546875"/>
+    <use xlink:href="#SegoeUIEmoji-2c" x="747.453125"/>
+    <use xlink:href="#SegoeUIEmoji-20" x="769.132812"/>
+    <use xlink:href="#SegoeUIEmoji-35" x="796.525391"/>
+    <use xlink:href="#SegoeUIEmoji-2e" x="850.431641"/>
+    <use xlink:href="#SegoeUIEmoji-35" x="872.111328"/>
+    <use xlink:href="#SegoeUIEmoji-30" x="926.017578"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4779e3a9cf">
+   <rect x="90" y="69.12" width="558" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

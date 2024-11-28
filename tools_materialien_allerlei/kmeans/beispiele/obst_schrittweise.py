@@ -23,11 +23,10 @@ data = np.array([
     [78, 9],   # Kiwi
     [88, 7],   # Pfirsich
     [82, 15],  # Ananas
-    [86, 11],  # Pflaume
 ])
 
 emoji_map = [
-    "🍎", "🍐", "🍌", "🍊", "🍇", "🍓", "🍉", "🥭", "🥝", "🍑", "🍍", "🍈"
+    "🍎", "🍐", "🍌", "🍊", "🍇", "🍓", "🍉", "🥭", "🥝", "🍑", "🍍"
 ]
 
 # Diagramm nur mit Obstsorten
@@ -70,7 +69,7 @@ for iteration in range(max_iter):
     plt.grid(True)
 
         # Plot Datenpunkte und Emojis
-    colors = ['#381fb4', '#2ca02c', '#a14242']  # Farben für die Cluster
+    colors = ['r', 'g', 'b']  # Farben für die Cluster
     for cluster_idx in range(k):
         cluster_points = data[clusters == cluster_idx]
         # Datenpunkte in der Clusterfarbe
