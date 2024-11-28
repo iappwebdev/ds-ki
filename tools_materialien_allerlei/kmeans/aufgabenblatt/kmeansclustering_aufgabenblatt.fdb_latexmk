@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732732385.57535 "o:/OneDrive/SPS/INF/BRM/ds-ki/tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.tex" "kmeansclustering_aufgabenblatt.pdf" "kmeansclustering_aufgabenblatt" 1732732387.05851 2
+["pdflatex"] 1732835472.33014 "o:/ds-ki/tools_materialien_allerlei/kmeans/aufgabenblatt/kmeansclustering_aufgabenblatt.tex" "kmeansclustering_aufgabenblatt.pdf" "kmeansclustering_aufgabenblatt" 1732835473.81157 2
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1732565904 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1732565904 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1732567494 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -141,9 +141,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732576125 5521760 8d14e9f23704d5fbe9a015e30cb48126 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732646728 3342993 c6f515e38eb3264470227c48ebf31cc8 ""
   "c:/texlive/2024/texmf.cnf" 1732576095 713 e69b156964470283e0530f5060668171 ""
-  "kmeansclustering_aufgabenblatt.aux" 1732732386 170 330a884c71e6361ea1d37761537236be "pdflatex"
-  "kmeansclustering_aufgabenblatt.tex" 1732732382 9218 d63b9a909b16c620c824b772442d4d39 ""
-  "o:/OneDrive/SPS/INF/BRM/ds-ki/tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.tex" 1732732382 9218 d63b9a909b16c620c824b772442d4d39 ""
+  "kmeansclustering_aufgabenblatt.aux" 1732835473 170 330a884c71e6361ea1d37761537236be "pdflatex"
+  "kmeansclustering_aufgabenblatt.tex" 1732835358 9164 d70ada10ca7198d37b8e7b7ccfa960f9 ""
+  "o:/ds-ki/tools_materialien_allerlei/kmeans/aufgabenblatt/kmeansclustering_aufgabenblatt.tex" 1732835358 9164 d70ada10ca7198d37b8e7b7ccfa960f9 ""
   (generated)
   "kmeansclustering_aufgabenblatt.aux"
   "kmeansclustering_aufgabenblatt.log"
