@@ -135,3 +135,7 @@ _build/
 
 # poetry files
 pyproject.toml
+tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.aux
+tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.fdb_latexmk
+tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.fls
+tools_materialien_allerlei/kmeans/kmeansclustering_aufgabenblatt.synctex.gz
