@@ -7,7 +7,6 @@ np.random.seed(42)
 cluster_1 = np.random.normal(loc=[2, 2], scale=0.5, size=(20, 2))  # Kleinere Standardabweichung für weiter entfernte Cluster
 cluster_2 = np.random.normal(loc=[6, 6], scale=0.5, size=(20, 2))
 cluster_3 = np.random.normal(loc=[2, 8], scale=0.5, size=(20, 2))
-
 data_1 = np.vstack((cluster_1, cluster_2, cluster_3))
 
 # --- Plot 1: Rohdaten in Schwarz ohne Clustering (einfache Unterscheidung) ---

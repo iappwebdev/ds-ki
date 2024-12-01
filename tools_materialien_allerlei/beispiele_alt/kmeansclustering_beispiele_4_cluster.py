@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import KMeans
+from PIL import Image
+import glob
 
 # Generierung von zufälligen Datenpunkten für vier Cluster mit klarer Trennung (Plot 1 und 2)
 np.random.seed(42)
@@ -68,6 +70,7 @@ plt.xlabel('Merkmal 1')
 plt.ylabel('Merkmal 2')
 plt.grid(True)
 plt.savefig("images/kmeans_4_cluster_komplex_datenpunkte.svg")
+plt.savefig("images/kmeans_4_cluster_komplex_datenpunkte.png")
 plt.show()
 
 # KMeans Clustering für die enger zusammenliegenden Cluster
@@ -85,6 +88,8 @@ for i, color in enumerate(colors):
     cluster_data = data_hard[labels_hard == i]
     scatter = plt.scatter(cluster_data[:, 0], cluster_data[:, 1], s=5, color=color, label=f'Cluster {i + 1}')
     scatterpoints.append(scatter)
+    plt.savefig(f"images/kmeans_4_cluster_komplex_ergebnis_{i}.svg")
+    plt.savefig(f"images/kmeans_4_cluster_komplex_ergebnis_{i}.png")
 
 # Plotten der Zentroiden ohne diese in der Legende zu zeigen
 for i, centroid in enumerate(centroids_hard):
@@ -98,5 +103,22 @@ plt.grid(True)
 # Legende mit größeren Punkten
 plt.legend(handles=scatterpoints, scatterpoints=True, markerscale=3)
 plt.savefig("images/kmeans_4_cluster_komplex_ergebnis.svg")
+plt.savefig("images/kmeans_4_cluster_komplex_ergebnis.png")
 
 plt.show()
+plt.savefig("images/plot_1.png")  # Beispiel für einen Plot
+
+# Nach dem Speichern aller Plots: Erstelle das GIF
+image_files = sorted(glob.glob("images/kmeans_4_cluster_komplex*.png"))  # Lade alle gespeicherten PNG-Bilder
+frames = [Image.open(img) for img in image_files]  # Öffne Bilder mit Pillow
+
+# Erstelle das GIF
+frames[0].save(
+    "images/kmeans_4_cluster_komplex_animation.gif",
+    save_all=True,
+    append_images=frames[1:],  # Füge die restlichen Bilder hinzu
+    duration=1000,             # Dauer zwischen Frames in Millisekunden
+    loop=0                    # Endlosschleife (loop=0 bedeutet endlos)
+)
+
+print("GIF erstellt: images/kmeans_animation.gif")
