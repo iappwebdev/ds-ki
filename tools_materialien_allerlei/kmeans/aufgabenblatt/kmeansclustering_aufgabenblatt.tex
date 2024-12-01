@@ -1,0 +1,301 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\newcommand{\kreis}{\tikz \draw[red, thick] (0,0) circle (4pt); }
+\newcommand{\dreieck}{\tikz \draw[blue, thick] (0,0) -- (0.15,0.30) -- (0.30,0) -- cycle; }
+\newcommand{\quadrat}{\tikz \draw[green!70!black, thick] (0,0) rectangle (0.3,0.3); }
+
+\begin{document}
+
+<<<<<<< HEAD
+\title{\textbf{k-Means-Clustering mit Manhattan-Distanz}}
+=======
+\title{\textbf{aufgabenblatt: K-Means-Clustering mit Manhattan-Distanz}}
+>>>>>>> 4b609a49100d2815d11ba896cdf7fefd336036dd
+\author{}
+\date{}
+
+\maketitle
+
+\section*{Einführung}
+
+In dieser Übung wirst du den k-Means-Clustering-Algorithmus anwenden, um eine Menge von Datenpunkten in Cluster zu gruppieren. Dabei verwendest du die \textbf{Manhattan-Distanz} zur Berechnung der Distanzen zwischen Punkten und Zentroiden.
+
+\section*{Aufgabe}
+
+\begin{enumerate}
+    \item \textbf{k-Means-Algorithmus durchführen}:
+    \begin{enumerate}
+        \item Berechne die Manhattan-Distanzen zwischen jedem Datenpunkt und den Zentroiden.
+        \item Weise jeden Datenpunkt dem nächstgelegenen Zentroiden zu und markiere die Datenpunkte entsprechend ihrer Clusterzugehörigkeit, indem du sie mit einem Symbol umschließt:
+        \begin{itemize}
+            \item \kreis für Cluster 1
+            \item \dreieck für Cluster 2
+            \item \quadrat für Cluster 3
+        \end{itemize}
+        \item Aktualisiere die Position der Zentroiden, indem du den Mittelwert der X- und Y-Koordinaten der zugewiesenen Punkte berechnest.
+        \item Wiederhole die Schritte a) bis c), bis sich die Clusterzuweisungen nicht mehr ändern.
+    \end{enumerate}
+\end{enumerate}
+
+\section*{Datenpunkte und initiale Zentroiden}
+
+\begin{minipage}{0.4\textwidth}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Punkt} & \textbf{X} & \textbf{Y} \\
+\hline
+$a$ & 2 & 10 \\ \hline
+$b$ & 2 & 5  \\ \hline
+$c$ & 8 & 4  \\ \hline
+$d$ & 5 & 8  \\ \hline
+$e$ & 7 & 5  \\ \hline
+$f$ & 6 & 4  \\ \hline
+$g$ & 1 & 2  \\ \hline
+$h$ & 4 & 9  \\ \hline
+$i$ & 6 & 2  \\ \hline
+$j$ & 3 & 3  \\ \hline
+$k$ & 5 & 6  \\ \hline
+$l$ & 9 & 7  \\ \hline
+\end{tabular}
+\end{center}
+\end{minipage}
+&
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}
+    \item \textbf{\kreis Zentroid $Z_{1}$}: $a (2, 10)$
+    \item \textbf{\dreieck Zentroid $Z_{2}$}: $d (5, 8)$
+    \item \textbf{\quadrat Zentroid $Z_{3}$}: $g (1, 2)$
+\end{itemize}
+\end{minipage}
+
+\newpage
+\begin{center}
+\setlength{\tabcolsep}{3pt} % Weniger Platz innerhalb der Tabellenzellen
+\begin{tabular}{l c l}
+
+\begin{minipage}{0.2\textwidth}
+\textbf{\footnotesize Iteration 1}
+    \item \textbf{\kreis $Z_{1}$}: (2, 10)
+    \item \textbf{\dreieck $Z_{2}$}: (5, 8)
+    \item \textbf{\quadrat $Z_{3}$}: (1, 2)
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\begin{tikzpicture}[scale=0.4]
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
+    \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
+    \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
+    % X-Achse Beschriftung
+    \foreach \x in {0,1,...,10} {
+        \draw (\x,0) -- (\x,-0.2) node[below] {\tiny  \x};
+    }
+    % Y-Achse Beschriftung
+    \foreach \y in {0,1,...,11} {
+        \draw (0,\y) -- (-0.2,\y) node[left] {\tiny  \y};
+    }
+    \foreach \x/\y/\label in {
+        2/10/$a$, 2/5/$b$, 8/4/$c$, 5/8/$d$, 7/5/$e$,
+        6/4/$f$, 1/2/$g$, 4/9/$h$, 6/2/$i$, 3/3/$j$,
+        5/6/$k$, 9/7/$l$}
+    {
+        \filldraw (\x,\y) circle (2pt) node[below right] {\footnotesize  \label};
+    }
+    \filldraw[red] (2,10) circle (4pt) node[above left] {$Z_{1}$};
+    \filldraw[blue] (5,8) circle (4pt) node[above right] {$Z_{2}$};
+    \filldraw[green!70!black] (1,2) circle (4pt) node[above right] {$Z_{3}$};
+\end{tikzpicture}
+\end{minipage}
+&
+\begin{minipage}{0.4\textwidth}
+\vspace{-1em}
+\footnotesize 
+\begin{tabular}[b]{|c|c|c|c|c|}
+\hline
+\textbf{Punkt} & \textbf{D($Z_{1}$)} & \textbf{D($Z_{2}$)} & \textbf{D($Z_{3}$)} & \textbf{Cluster} \\
+\hline
+a & 0 & 5 & 9 & \kreis $Z_{1}$ \\ \hline
+b & 5 & 6 & 4 & \quadrat $Z_{3}$ \\ \hline
+c & 10 & 7 & 10 & \dreieck $Z_{3}$ \\ \hline
+d & & & & \\ \hline
+e & & & & \\ \hline
+f & & & & \\ \hline
+g & & & & \\ \hline
+h & & & & \\ \hline
+i & & & & \\ \hline
+j & & & & \\ \hline
+k & & & & \\ \hline
+l & & & & \\ \hline
+\end{tabular}
+\end{minipage}
+\\[0.5cm] % Abstand zwischen Iterationen
+
+\begin{minipage}{0.2\textwidth}
+\textbf{\footnotesize Iteration 2}
+    \item \textbf{\kreis $Z_{1}$}: 
+    \item \textbf{\dreieck $Z_{2}$}:
+    \item \textbf{\quadrat $Z_{3}$}: 
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{tikzpicture}[scale=0.4]
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
+    \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
+    \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
+    % X-Achse Beschriftung
+    \foreach \x in {0,1,...,10} {
+        \draw (\x,0) -- (\x,-0.2) node[below] {\tiny  \x};
+    }
+    % Y-Achse Beschriftung
+    \foreach \y in {0,1,...,11} {
+        \draw (0,\y) -- (-0.2,\y) node[left] {\tiny  \y};
+    }
+    \foreach \x/\y/\label in {
+        2/10/$a$, 2/5/$b$, 8/4/$c$, 5/8/$d$, 7/5/$e$,
+        6/4/$f$, 1/2/$g$, 4/9/$h$, 6/2/$i$, 3/3/$j$,
+        5/6/$k$, 9/7/$l$}
+    {
+        \filldraw (\x,\y) circle (2pt) node[below right] {\footnotesize  \label};
+    }
+\end{tikzpicture}
+\end{minipage}
+&
+\begin{minipage}{0.4\textwidth}
+\vspace{-1em}
+\footnotesize 
+\begin{tabular}[b]{|c|c|c|c|c|}
+\hline
+\textbf{Punkt} & \textbf{D($Z_{1}$)} & \textbf{D($Z_{2}$)} & \textbf{D($Z_{3}$)} & \textbf{Cluster} \\
+\hline
+a & & & & \\ \hline
+b & & & & \\ \hline
+c & & & & \\ \hline
+d & & & & \\ \hline
+e & & & & \\ \hline
+f & & & & \\ \hline
+g & & & & \\ \hline
+h & & & & \\ \hline
+i & & & & \\ \hline
+j & & & & \\ \hline
+k & & & & \\ \hline
+l & & & & \\ \hline
+\end{tabular}
+\end{minipage}
+\\[0.5cm] % Abstand zwischen Iterationen
+
+\begin{minipage}{0.2\textwidth}
+\textbf{\footnotesize Iteration 3}
+    \item \textbf{\kreis $Z_{1}$}: 
+    \item \textbf{\dreieck $Z_{2}$}:
+    \item \textbf{\quadrat $Z_{3}$}: 
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{tikzpicture}[scale=0.4]
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
+    \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
+    \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
+    % X-Achse Beschriftung
+    \foreach \x in {0,1,...,10} {
+        \draw (\x,0) -- (\x,-0.2) node[below] {\tiny  \x};
+    }
+    % Y-Achse Beschriftung
+    \foreach \y in {0,1,...,11} {
+        \draw (0,\y) -- (-0.2,\y) node[left] {\tiny  \y};
+    }
+    \foreach \x/\y/\label in {
+        2/10/$a$, 2/5/$b$, 8/4/$c$, 5/8/$d$, 7/5/$e$,
+        6/4/$f$, 1/2/$g$, 4/9/$h$, 6/2/$i$, 3/3/$j$,
+        5/6/$k$, 9/7/$l$}
+    {
+        \filldraw (\x,\y) circle (2pt) node[below right] {\footnotesize  \label};
+    }
+\end{tikzpicture}
+\end{minipage}
+&
+\begin{minipage}{0.4\textwidth}
+\vspace{-1em}
+\footnotesize 
+\begin{tabular}[b]{|c|c|c|c|c|}
+\hline
+\textbf{Punkt} & \textbf{D($Z_{1}$)} & \textbf{D($Z_{2}$)} & \textbf{D($Z_{3}$)} & \textbf{Cluster} \\
+\hline
+a & & & & \\ \hline
+b & & & & \\ \hline
+c & & & & \\ \hline
+d & & & & \\ \hline
+e & & & & \\ \hline
+f & & & & \\ \hline
+g & & & & \\ \hline
+h & & & & \\ \hline
+i & & & & \\ \hline
+j & & & & \\ \hline
+k & & & & \\ \hline
+l & & & & \\ \hline
+\end{tabular}
+\end{minipage}
+\\[0.5cm] % Abstand zwischen Iterationen
+
+\begin{minipage}{0.2\textwidth}
+\textbf{\footnotesize Iteration 4}
+    \item \textbf{\kreis $Z_{1}$}: 
+    \item \textbf{\dreieck $Z_{2}$}:
+    \item \textbf{\quadrat $Z_{3}$}: 
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{tikzpicture}[scale=0.4]
+    \draw[step=1cm,gray,thin] (0,0) grid (10,11);
+    \draw[thick,->] (0,0) -- (10.5,0) node[right] {\tiny X};
+    \draw[thick,->] (0,0) -- (0,11.5) node[above] {\tiny Y};
+    % X-Achse Beschriftung
+    \foreach \x in {0,1,...,10} {
+        \draw (\x,0) -- (\x,-0.2) node[below] {\tiny  \x};
+    }
+    % Y-Achse Beschriftung
+    \foreach \y in {0,1,...,11} {
+        \draw (0,\y) -- (-0.2,\y) node[left] {\tiny  \y};
+    }
+    \foreach \x/\y/\label in {
+        2/10/$a$, 2/5/$b$, 8/4/$c$, 5/8/$d$, 7/5/$e$,
+        6/4/$f$, 1/2/$g$, 4/9/$h$, 6/2/$i$, 3/3/$j$,
+        5/6/$k$, 9/7/$l$}
+    {
+        \filldraw (\x,\y) circle (2pt) node[below right] {\footnotesize  \label};
+    }
+\end{tikzpicture}
+\end{minipage}
+&
+\begin{minipage}{0.4\textwidth}
+\vspace{-1em}
+\footnotesize 
+\begin{tabular}[b]{|c|c|c|c|c|}
+\hline
+\textbf{Punkt} & \textbf{D($Z_{1}$)} & \textbf{D($Z_{2}$)} & \textbf{D($Z_{3}$)} & \textbf{Cluster} \\
+\hline
+a & & & & \\ \hline
+b & & & & \\ \hline
+c & & & & \\ \hline
+d & & & & \\ \hline
+e & & & & \\ \hline
+f & & & & \\ \hline
+g & & & & \\ \hline
+h & & & & \\ \hline
+i & & & & \\ \hline
+j & & & & \\ \hline
+k & & & & \\ \hline
+l & & & & \\ \hline
+\end{tabular}
+\end{minipage}
+
+\end{tabular}
+\end{center}
+
+% Rückkehr zu Standard-Seitenrändern
+\restoregeometry
+
+\end{document}
