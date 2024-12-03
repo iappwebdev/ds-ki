@@ -41,8 +41,8 @@ parts:
       sections:
       - file: ki/knearestneighbor2.ipynb
     - file: ki/kmeansclustering.ipynb
-      #sections:
-      #- file: ki/kmeansclustering2.ipynb
+      sections:
+      - file: ki/kmeansclustering2.ipynb
     - file: ki/entscheidungsbaumlernen.ipynb
     - file: ki/minimax.ipynb
     - file: ki/neuronalenetze.ipynb

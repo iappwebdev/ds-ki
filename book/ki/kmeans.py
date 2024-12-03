@@ -62,10 +62,10 @@ def initialisiere_zentroiden(anzahl_zentroiden: int, datenpunkte: list[Datenpunk
     logger.info(f"Initialisierte Zentroiden: {zentroiden}")
     return zentroiden
 
-def ermittle_cluster(datenpunkte: list[Datenpunkt], zentroiden: list[Datenpunkt]) -> dict[int, list[Datenpunkt]]:
+def erzeuge_cluster(datenpunkte: list[Datenpunkt], zentroiden: list[Datenpunkt]) -> dict[int, list[Datenpunkt]]:
     """Weist jeden Datenpunkt den entsprechenden Cluster zu.  
        Return: Dictionary mit den Clustern und den zugehörigen Datenpunkten.
-        Z.B: {0: [Datenpunkt(1.4, 4.5), Datenpunkt(1.6, 4.7)], 1: [Datenpunkt(5.2, 8.3), Datenpunkt(5.1, 8.2)], 2: [Datenpunkt(3.1, 9.2)]}"""
+       Z.B: {0: [Datenpunkt(1.4, 4.5), Datenpunkt(1.6, 4.7)], 1: [Datenpunkt(5.2, 8.3), Datenpunkt(5.1, 8.2)], 2: [Datenpunkt(3.1, 9.2)]}"""
     clusters: dict[int, list[Datenpunkt]] = {}
     for zentroid in range(len(zentroiden)):
         clusters[zentroid] = []
@@ -92,21 +92,9 @@ def finde_naechsten_zentroiden(zentroiden: list[Datenpunkt], datenpunkt: Datenpu
     logger.debug(f"Nächster Zentroid für {datenpunkt} ist Zentroid {naechster_zentroid}")
     return naechster_zentroid
 
-def berechne_zentroiden(clusters: dict[int, list[Datenpunkt]]) -> list[Datenpunkt]:
-    """Aktualisiere die Position der Zentroiden basierend auf den zugewiesenen Datenpunkten.  
-       Return: Liste der aktualisierten Zentroiden.  
-       Z.B: [Datenpunkt(1.4, 4.5), Datenpunkt(5.2, 8.3), Datenpunkt(3.1, 9.2)]"""
-    neue_zentroiden: list[Datenpunkt] = []
-    logger.debug(f"Berechne Zentroiden basierend auf den Clustern: {clusters}")
-    for _, datenpunkte_in_cluster in clusters.items():
-        neuer_zentroid: Datenpunkt = berechne_zentroid(datenpunkte_in_cluster)
-        neue_zentroiden.append(neuer_zentroid)
-    logger.info(f"Aktualisierte Zentroiden: {neue_zentroiden}")
-    return neue_zentroiden
-
-def berechne_zentroid(datenpunkte: list[Datenpunkt]) -> Datenpunkt:
+def berechne_zentroid_koordinaten(datenpunkte: list[Datenpunkt]) -> Datenpunkt:
     """Berechnet die Position des Zentroiden basierend auf den zugehörigen Datenpunkten.  
-       Return: Position des Zentroiden.  
+       Return: Position des Zentroiden als Datenpunkt.  
        Z.B: Datenpunkt(2.5, 3.7)"""
     logger.debug(f"Berechne Zentroid für Datenpunkte: {datenpunkte}")
     summe_x = sum(datenpunkt.x for datenpunkt in datenpunkte)
@@ -114,6 +102,18 @@ def berechne_zentroid(datenpunkte: list[Datenpunkt]) -> Datenpunkt:
     position_x = summe_x / len(datenpunkte)
     position_y = summe_y / len(datenpunkte)
     return Datenpunkt(position_x, position_y)
+
+def aktualisiere_zentroiden(clusters: dict[int, list[Datenpunkt]]) -> list[Datenpunkt]:
+    """Aktualisiert die Zentroiden basierend auf den zugewiesenen Datenpunkten.  
+       Return: Liste der aktualisierten Zentroiden.  
+       Z.B: [Datenpunkt(1.4, 4.5), Datenpunkt(5.2, 8.3), Datenpunkt(3.1, 9.2)]"""
+    neue_zentroiden: list[Datenpunkt] = []
+    logger.debug(f"Berechne Zentroiden basierend auf den Clustern: {clusters}")
+    for datenpunkte_in_cluster in clusters.values():
+        neuer_zentroid: Datenpunkt = berechne_zentroid_koordinaten(datenpunkte_in_cluster)
+        neue_zentroiden.append(neuer_zentroid)
+    logger.info(f"Aktualisierte Zentroiden: {neue_zentroiden}")
+    return neue_zentroiden
 
 def k_means(datenpunkte: list[Datenpunkt], anzahl_cluster: int, max_iterationen: int) -> None:
     """Hauptfunktion für den k-means Algorithmus. Führt den k-means Clustering Algorithmus aus."""
@@ -123,10 +123,10 @@ def k_means(datenpunkte: list[Datenpunkt], anzahl_cluster: int, max_iterationen:
     for iteration in range(max_iterationen):
         logger.info(f"Iteration {iteration + 1}")
         # 3. Zuweisung der Datenpunkte und Bildung der Cluster
-        clusters = ermittle_cluster(datenpunkte, zentroiden)
+        clusters = erzeuge_cluster(datenpunkte, zentroiden)
         
         # 4. Aktualisierung der Zentroiden
-        neue_zentroiden = berechne_zentroiden(clusters)
+        neue_zentroiden = aktualisiere_zentroiden(clusters)
         
         # 5. Überprüfung, ob sich die Zentroiden verändert haben
         if neue_zentroiden == zentroiden:
