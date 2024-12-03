@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Alle Dropdowns erfassen
     const dropdowns = document.querySelectorAll(".dropdown.admonition");
 
+    const oeffnenText = "Alles ausklappen";
+    const schliessenText = "Alles einklappen";
+
     // Button erstellen
     const toggleButton = document.createElement("button");
     toggleButton.id = "toggle-all-dropdowns";
@@ -70,12 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
         // Icon wechseln
         const icon = document.getElementById("toggle-all-icon");
         if (openDropdowns.length === dropdowns.length) {
-            toggleButton.setAttribute("aria-label", "Alle Dropdowns schließen");
-            toggleButton.setAttribute("data-bs-original-title", "Alle Dropdowns schließen");
+            toggleButton.setAttribute("aria-label", schliessenText);
+            toggleButton.setAttribute("data-bs-original-title", schliessenText);
             icon.innerHTML = `<polyline points="6 15 12 9 18 15"></polyline>`; // Klammer nach oben
         } else {
-            toggleButton.setAttribute("aria-label", "Alle Dropdowns öffnen");
-            toggleButton.setAttribute("data-bs-original-title", "Alle Dropdowns öffnen");
+            toggleButton.setAttribute("aria-label", oeffnenText);
+            toggleButton.setAttribute("data-bs-original-title", oeffnenText);
             icon.innerHTML = `<polyline points="6 9 12 15 18 9"></polyline>`; // Klammer nach unten
         }
 
