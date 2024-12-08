@@ -561,7 +561,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "def erzeuge_cluster(datenpunkte: list[Datenpunkt], zentroiden: list[Datenpunkt]) -> dict[int, list[Datenpunkt]]:\n",
+    "def berechne_cluster(datenpunkte: list[Datenpunkt], zentroiden: list[Datenpunkt]) -> dict[int, list[Datenpunkt]]:\n",
     "    \"\"\"Weist jeden Datenpunkt den entsprechenden Cluster zu.  \n",
     "       Return: Dictionary mit den Clustern und den zugehörigen Datenpunkten.\n",
     "        Z.B: {0: [Datenpunkt(1.4, 4.5), Datenpunkt(1.6, 4.7)], 1: [Datenpunkt(5.2, 8.3), Datenpunkt(5.1, 8.2)], 2: [Datenpunkt(3.1, 9.2)]}\"\"\"\n",
@@ -584,7 +584,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Unit-Tests für `erzeuge_cluster()`:"
+    "Unit-Tests für `berechne_cluster()`:"
    ]
   },
   {
@@ -597,11 +597,11 @@
    },
    "outputs": [],
    "source": [
-    "def test_erzeuge_cluster():\n",
+    "def test_berechne_cluster():\n",
     "    # Testfall zur Überprüfung der Zuweisung der Datenpunkte zu den nächsten Zentroiden\n",
     "    datenpunkte = [Datenpunkt(x, y) for x, y in [(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]]\n",
     "    zentroiden = [Datenpunkt(2, 3), Datenpunkt(6, 7), Datenpunkt(8, 9)]\n",
-    "    clusters = erzeuge_cluster(datenpunkte, zentroiden)\n",
+    "    clusters = berechne_cluster(datenpunkte, zentroiden)\n",
     "    erwartete_clusters = {\n",
     "        0: [Datenpunkt(1, 2), Datenpunkt(3, 4)],\n",
     "        1: [Datenpunkt(5, 6), Datenpunkt(7, 8)],\n",
@@ -612,7 +612,7 @@
     "        for datenpunkt in datenpunkte_im_cluster:\n",
     "            assert datenpunkt in clusters[cluster_index], f\"Erwarteter Datenpunkt {datenpunkt} nicht im Cluster {cluster_index} gefunden\"\n",
     "\n",
-    "test_erzeuge_cluster()"
+    "test_berechne_cluster()"
    ]
   },
   {
@@ -798,7 +798,7 @@
     "    for iteration in range(max_iterationen):\n",
     "        logger.info(f\"Iteration {iteration + 1}\")\n",
     "        # 3. Zuweisung der Datenpunkte und Bildung der Cluster\n",
-    "        clusters = erzeuge_cluster(datenpunkte, zentroiden)\n",
+    "        clusters = berechne_cluster(datenpunkte, zentroiden)\n",
     "        plot_cluster(clusters, zentroiden, iteration + 1)\n",
     "        \n",
     "        # 4. Aktualisierung der Zentroiden\n",
