@@ -22,10 +22,10 @@ html:
 parse:
   myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
     - amsmath
-    - attrs_block
+    - attrs_block # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#block-attributes
     - attrs_inline # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-attributes-inline
     - colon_fence
-    - deflist
+    - deflist # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-definition-lists
     - dollarmath
     - html_admonition
     - html_image
@@ -33,7 +33,6 @@ parse:
     - replacements
     - smartquotes
     - substitution
-    - tasklist # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-attributes-inline
   myst_url_schemes: [ mailto, http, https ]
   myst_dmath_double_inline: true
 
@@ -60,7 +59,7 @@ sphinx:
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
-    - teachbooks_sphinx_tippy
+    - teachbooks_sphinx_tippy # https://github.com/TeachBooks/teachbooks-sphinx-tippy
 
 bibtex_bibfiles: 
   - references.bib

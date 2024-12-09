@@ -7,6 +7,7 @@ parts:
     chapters:
     - file: live_code.ipynb
     - file: parsons_problems_einfuehrung.ipynb
+    # - file: features.ipynb
 
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3

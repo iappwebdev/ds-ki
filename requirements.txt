@@ -1,7 +1,7 @@
 # first list the packages you wish to download from PyPI
 teachbooks # depends on jupyter-book
 # numpy
-teachbooks-sphinx-tippy
+teachbooks-sphinx-tippy # https://github.com/TeachBooks/teachbooks-sphinx-tippy
 
 # docutils version for reference page formatting
 docutils==0.17.1
