@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Alle Dropdowns erfassen
     const dropdowns = document.querySelectorAll(".dropdown.admonition");
 
+    if (!headerButtonsContainer || dropdowns.length <= 0) {
+      console.info("[dropdown-opener]: Keine Dropdowns gefunden oder Header-Container nicht vorhanden.");
+      return
+    }
+
     const oeffnenText = "Alles ausklappen";
     const schliessenText = "Alles einklappen";
 
@@ -20,11 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <polyline points="6 9 12 15 18 9"></polyline>
         </svg>
     `;
-
+    
     // Button in den Header-Container einfügen
-    if (headerButtonsContainer && dropdowns.length > 0) {
-        headerButtonsContainer.prepend(toggleButton);
-    }
+    console.info("[dropdown-opener]: Dropdown-Button wird hinzugefügt.");
+    headerButtonsContainer.prepend(toggleButton);
 
     // Alle geöffneten Dropdowns finden
     const getOpenedDropdowns = dropdowns => {
