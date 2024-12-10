@@ -21,8 +21,8 @@ In diesem Skript geht es umd die beiden abitur-relevanten Software-Themen aus de
 
 ```{tip}
 Wenn du dieses Buch *online* liest, kannst du viele Inhalte *interaktiv* nutzen, z.B. kannst du
-- Codebeispiele selbst ausführen und sogar verändern. Probier's aus in [diesem Abschnitt](live_code.ipynb)
-- [Parsons-Probleme lösen](parsons_problems_einfuehrung.ipynb)
+- Codebeispiele selbst ausführen und sogar verändern. Probier's aus in [diesem Abschnitt](live_code)
+- [Parsons-Probleme lösen](parsons_problems_einfuehrung)
 - Quizfragen beantworten
 - interaktive Beispiele ausprobieren
 - und natürlich kannst du allen Links direkt folgen und Videos direkt als Teil des Buchs anschauen.
