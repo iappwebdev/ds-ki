@@ -28,3 +28,9 @@ a[href*="wikipedia"]::before {
 .has-tippy .std-ref::before {
   content: "🔗";
 }
+
+/* Links zu sonstigen internen Verlinkungen {ref} oder []() */
+.has-tippy .std-numref::before {
+  /* Bild Emoji */
+  content: "🖼️";
+}
