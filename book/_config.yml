@@ -56,6 +56,7 @@ sphinx:
       launch_buttons:
         thebe: true
     html_show_copyright: true  # Evtl ändern?
+    tippy_add_class: "has-tippy"
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
