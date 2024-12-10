@@ -1,0 +1,20 @@
+Budget,Akkulaufzeit,Kamera,Speicher,Empfehlung
+niedrig,lang,mittel,groß,Modell A
+hoch,mittel,wichtig,groß,Modell B
+mittel,lang,mittel,groß,Modell C
+niedrig,kurz,egal,klein,Modell A
+hoch,lang,wichtig,groß,Modell B
+mittel,mittel,mittel,klein,Modell C
+niedrig,lang,egal,klein,Modell A
+hoch,mittel,mittel,groß,Modell B
+mittel,lang,wichtig,groß,Modell C
+niedrig,kurz,egal,klein,Modell A
+mittel,mittel,wichtig,groß,Modell C
+niedrig,lang,mittel,groß,Modell C
+hoch,mittel,wichtig,groß,Modell B
+niedrig,lang,wichtig,klein,Modell B
+hoch,lang,mittel,klein,Modell B
+mittel,lang,wichtig,klein,Modell B
+niedrig,lang,wichtig,groß,Modell C
+hoch,kurz,mittel,groß,Modell C
+mittel,kurz,egal,groß,Modell A
