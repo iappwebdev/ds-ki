@@ -1,4 +1,3 @@
-(intro)=
 # Datenstrukturen und Künstliche Intelligenz
 *Skript für die Jahrgangsstufe 2 des Profilfachs Informationstechnik am Technischen Gymnasium (BW)*  
 
