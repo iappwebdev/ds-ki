@@ -31,6 +31,10 @@ clean:
 build: clean
 	jupyter-book build . --all
 
+# Baut das Buch in HTML aber ohne clean und nur geänderte Dateien 
+update: 
+	jupyter-book build .
+
 # Buch online veröffentlichen
 publish:
 	rsync -avz _build/html/* mbqw@carina.uberspace.de:html/tgi13skript/
