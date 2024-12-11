@@ -32,6 +32,5 @@ a[href*="wikipedia"]::before {
 
 /* Links zu sonstigen internen Verlinkungen {ref} oder []() */
 .has-tippy .std-numref::before {
-  /* content: "🖼️"; */
   content: "🔎";
 }
