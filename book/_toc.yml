@@ -5,9 +5,11 @@ parts:
   - caption: Nutzung   # Das wird Part 1 (Teile werden nicht nummeriert)
     numbered: 2
     chapters:
-    - file: live_code.ipynb
-    - file: parsons_problems_einfuehrung.ipynb
-    - file: features.ipynb
+    - file: nutzung.md
+      sections:
+      - file: live_code.ipynb
+      - file: parsons_problems_einfuehrung.ipynb
+      # - file: features.ipynb
 
   - caption: Datenstrukturen  # Das wird Part 2
     numbered: 3

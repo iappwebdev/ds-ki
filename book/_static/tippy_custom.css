@@ -1,22 +1,23 @@
 /* Verhindern, dass Emojis in Tooltip- und Wikipedia-Links mit unterstrichen werden */
-.has-tippy > ::before,
+.has-tippy> ::before,
 a[href*="wikipedia"]::before {
   display: inline-block;
   text-decoration: none;
 }
 
-.has-tippy > * {
-  white-space: nowrap; /* Icon soll bei Link bleiben, steht sonst mal alleine */
+.has-tippy>* {
+  white-space: nowrap;
+  /* Icon soll bei Link bleiben, steht sonst mal alleine */
 }
 
-/* Links zu Wikipedia */
+/* Links zu Wikipedia
 a[href*="wikipedia"]::before {
   content: "🌐";
-}
+} */
 
 /* Links zu anderen internen Seiten {doc} */
 .has-tippy .doc::before {
-  content: "📑";
+  content: "🔎";
 }
 
 /* Links zu Glossar-Einträgen {term} */
@@ -26,11 +27,11 @@ a[href*="wikipedia"]::before {
 
 /* Links zu sonstigen internen Verlinkungen {ref} oder []() */
 .has-tippy .std-ref::before {
-  content: "🔗";
+  content: "🔎";
 }
 
 /* Links zu sonstigen internen Verlinkungen {ref} oder []() */
 .has-tippy .std-numref::before {
-  /* Bild Emoji */
-  content: "🖼️";
+  /* content: "🖼️"; */
+  content: "🔎";
 }
